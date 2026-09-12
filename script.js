@@ -12,7 +12,7 @@ if(lang==='ru'){
   document.querySelector('meta[name="description"]')?.setAttribute('content','Покраска автомобилей, кузовной ремонт и полный автосервис в Эргольдинге рядом с Ландсхутом. Работаем на русском и немецком языках.');
   setMany('.nav-links a',['Услуги','Почему мы','Как всё проходит','Контакты']);
   set('.hero .eyebrow','<span></span> Кузовной ремонт и покраска · Эргольдинг');
-  set('.language-note','<b>DE</b><b>RU</b><span>Мы говорим по-русски и по-немецки</span>');
+  set('.language-note','<span>Мы говорим по-русски · Wir sprechen auch Russisch</span>');
   set('.hero-call small','Позвонить сейчас');
   set('h1','Повреждения исчезают.<br><em>Качество остаётся.</em>');
   set('.hero-lead','<strong>Покраска, кузовной ремонт и автосервис</strong><span>Всё в одном месте.</span>');
