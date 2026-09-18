@@ -53,6 +53,6 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 @media(max-width:520px){.language-switch{right:62px!important;top:20px!important}.language-switch a{width:30px;height:29px;font-size:10px}}
 
 /* More compact header logo */
-.nav .brand{width:min(61vw,1120px);height:150px}
+.nav .brand{width:min(61vw,1120px);height:150px;transform:translateX(-19px)}
 @media(max-width:900px){.nav .brand{width:min(63vw,440px);height:92px}}
 @media(max-width:520px){.nav .brand{width:64vw;height:82px}}
