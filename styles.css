@@ -51,3 +51,8 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .language-switch a:hover,.language-switch a.active{background:#142a45;color:#fff!important;border-bottom-color:var(--blue)!important;border-left-color:transparent!important}
 @media(max-width:900px){.language-switch{position:absolute!important;left:auto!important;right:70px!important;top:23px!important;margin:0!important}.language-switch a{width:34px;height:31px}.nav-links{padding-top:25px}}
 @media(max-width:520px){.language-switch{right:62px!important;top:20px!important}.language-switch a{width:30px;height:29px;font-size:10px}}
+
+/* More compact header logo */
+.nav .brand{width:min(61vw,1120px);height:150px}
+@media(max-width:900px){.nav .brand{width:min(63vw,440px);height:92px}}
+@media(max-width:520px){.nav .brand{width:64vw;height:82px}}
