@@ -56,3 +56,7 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .nav .brand{width:min(61vw,1120px);height:150px;transform:translateX(-19px)}
 @media(max-width:900px){.nav .brand{width:min(63vw,440px);height:92px}}
 @media(max-width:520px){.nav .brand{width:64vw;height:82px}}
+
+/* Hero headline reduced by 30 percent */
+.hero h1{font-size:clamp(41px,4.9vw,74px)}
+@media(max-width:900px){.hero h1{font-size:clamp(34px,9.8vw,50px)}}
