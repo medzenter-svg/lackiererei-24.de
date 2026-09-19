@@ -79,10 +79,11 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .wheel-card h3{font-size:24px;line-height:1.2}
 
 /* Stronger hero text contrast */
-.hero-shade{background:linear-gradient(90deg,rgba(3,6,10,.99) 0%,rgba(3,6,10,.96) 38%,rgba(3,6,10,.88) 66%,rgba(3,6,10,.58) 82%,rgba(3,6,10,.26) 100%),linear-gradient(0deg,rgba(5,8,12,.86),transparent 58%)}
+.hero-bg{filter:brightness(1.16) saturate(1.18) contrast(1.03)}
+.hero-shade{background:linear-gradient(90deg,rgba(3,6,10,.99) 0%,rgba(3,6,10,.94) 36%,rgba(3,6,10,.7) 57%,rgba(3,6,10,.34) 72%,rgba(3,6,10,.08) 100%),linear-gradient(0deg,rgba(5,8,12,.58),transparent 50%)}
 .hero-content{isolation:isolate}
 .hero h1,.hero-lead,.hero-copy,.pickup-service{text-shadow:0 2px 12px rgba(0,0,0,.82)}
 .hero-copy{color:#f2f6fb;font-weight:500;padding:12px 18px;margin-left:-18px;background:linear-gradient(90deg,rgba(2,5,9,.58),rgba(2,5,9,.3) 78%,transparent)}
 .hero-lead strong{color:#fff}.hero-lead span{color:#91c3ff}
 .pickup-service{background:rgba(4,9,16,.9);border-color:rgba(135,189,255,.58)}
-@media(max-width:900px){.hero-shade{background:linear-gradient(90deg,rgba(3,6,10,.98),rgba(3,6,10,.76)),linear-gradient(0deg,rgba(5,8,12,.9),transparent)}}
+@media(max-width:900px){.hero-shade{background:linear-gradient(90deg,rgba(3,6,10,.98),rgba(3,6,10,.58)),linear-gradient(0deg,rgba(5,8,12,.72),transparent)}}
