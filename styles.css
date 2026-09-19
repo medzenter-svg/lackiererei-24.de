@@ -70,3 +70,10 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .wheel-card-main{background:linear-gradient(145deg,#08395f,#155f9f)}
 .wheel-card-main:hover{background:linear-gradient(145deg,#0b4777,#196caf)}
 .advantage-card.featured,.contact-card{background:linear-gradient(135deg,#0a416f,#155f9f)}
+
+/* Improved readability in the wheel-service cards */
+.wheel-card>p:last-child{color:#b8c2cf;font-size:14px;line-height:1.8}
+.wheel-card-main>p:last-child{color:#f0f6fc}
+.wheel-label{color:#8fc1ff!important;font-size:11px!important;line-height:1.45}
+.wheel-card-main .wheel-label{color:#dcecff!important}
+.wheel-card h3{font-size:24px;line-height:1.2}
