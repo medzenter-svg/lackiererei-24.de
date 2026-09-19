@@ -107,3 +107,10 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .workshop-content .btn.primary:hover{animation-play-state:paused;transform:translateY(-5px);box-shadow:0 20px 44px rgba(46,140,255,.46)}
 @keyframes workshop-button-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
 @media(prefers-reduced-motion:reduce){.workshop-content .btn.primary{animation:none}}
+
+/* Persistent floating workshop CTA */
+.workshop-float{position:fixed;left:22px;bottom:22px;z-index:59;display:flex;align-items:center;justify-content:space-between;gap:30px;min-width:290px;min-height:58px;padding:0 20px;background:#2e8cff;color:#fff;border:1px solid rgba(255,255,255,.2);font-size:13px;font-weight:800;box-shadow:0 16px 42px rgba(15,92,190,.42);animation:workshop-button-float 3s ease-in-out infinite;transition:background .2s,box-shadow .2s}
+.workshop-float:hover{animation-play-state:paused;background:#1676df;box-shadow:0 20px 48px rgba(46,140,255,.55)}
+.workshop-float b{font-size:19px}
+@media(max-width:900px){.workshop-float{left:14px;bottom:14px;min-width:0;max-width:calc(100vw - 100px);min-height:54px;padding:0 16px;gap:18px;font-size:11px}.mobile-call{display:none}}
+@media(prefers-reduced-motion:reduce){.workshop-float{animation:none}}
