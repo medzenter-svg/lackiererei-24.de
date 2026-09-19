@@ -88,10 +88,8 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .pickup-service{background:rgba(4,9,16,.9);border-color:rgba(135,189,255,.58)}
 @media(max-width:900px){.hero-shade{background:linear-gradient(90deg,rgba(3,6,10,.98),rgba(3,6,10,.58)),linear-gradient(0deg,rgba(5,8,12,.72),transparent)}}
 
-/* Phone number directly below the header logo */
-.header-phone{position:absolute;z-index:4;top:132px;left:max(31px,calc((100vw - var(--max))/2));display:flex;align-items:baseline;gap:14px;padding-left:13px;border-left:3px solid var(--blue);text-shadow:0 2px 10px #000}
-.header-phone small{color:var(--blue2);font-size:9px;font-weight:800;letter-spacing:1.7px;text-transform:uppercase}
-.header-phone strong{color:#fff;font:700 18px Arial}
-.nav{height:194px}.hero{padding-top:208px}
-@media(max-width:900px){.header-phone{top:79px;left:20px;gap:8px;padding-left:9px}.header-phone small{font-size:7px;letter-spacing:1.1px}.header-phone strong{font-size:13px}.nav{height:126px}.hero{padding-top:142px}}
-@media(max-width:520px){.header-phone{top:72px}.header-phone small{display:none}.header-phone strong{font-size:12px}.nav{height:116px}.hero{padding-top:132px}}
+/* Phone number in the main navigation row */
+.nav{height:176px}.hero{padding-top:190px}
+.nav-links .menu-phone{margin-left:3px;padding:9px 13px;border:1px solid rgba(135,189,255,.42);color:#fff;font-weight:800;white-space:nowrap;background:rgba(5,12,21,.72)}
+.nav-links .menu-phone:hover{border-color:var(--blue2);background:#142a45}
+@media(max-width:900px){.nav{height:108px}.hero{padding-top:125px}.nav-links .menu-phone{margin:8px 0 0;padding:13px;border-left:3px solid var(--blue)}}
