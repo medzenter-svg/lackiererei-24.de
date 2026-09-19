@@ -101,3 +101,9 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .nav .brand{top:-12px;width:min(52vw,930px);height:132px;transform:translateX(-19px)}
 @media(max-width:900px){.nav .brand{top:-7px;width:min(55vw,380px);height:82px}}
 @media(max-width:520px){.nav .brand{top:-5px;width:56vw;height:72px}}
+
+/* Floating workshop appointment button */
+.workshop-content .btn.primary{animation:workshop-button-float 3s ease-in-out infinite;box-shadow:0 14px 34px rgba(46,140,255,.28);will-change:transform}
+.workshop-content .btn.primary:hover{animation-play-state:paused;transform:translateY(-5px);box-shadow:0 20px 44px rgba(46,140,255,.46)}
+@keyframes workshop-button-float{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+@media(prefers-reduced-motion:reduce){.workshop-content .btn.primary{animation:none}}
