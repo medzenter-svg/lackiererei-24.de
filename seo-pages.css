@@ -3,4 +3,5 @@
 /* Compact transition from the catalogue intro to the first service group. */
 .seo-hub-head{padding-bottom:16px}
 .seo-hub-head+.seo-group{padding-top:16px}
+.seo-service-card{padding-left:20px;padding-right:20px}
 @media(max-width:900px){.seo-hub-head{padding-bottom:12px}.seo-hub-head+.seo-group{padding-top:12px}}
