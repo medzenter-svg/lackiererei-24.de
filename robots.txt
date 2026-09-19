@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://medzenter-svg.github.io/lackiererei-24.de/sitemap.xml
