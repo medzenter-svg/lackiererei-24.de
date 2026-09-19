@@ -96,3 +96,8 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .language-switch{margin-top:31px!important}
 @media(max-width:900px){.nav{height:108px}.hero{padding-top:125px}.language-switch{margin:0!important}.nav-links .menu-phone{margin:8px 0 0;padding:13px;border-left:3px solid var(--blue)}}
 .all-services-link{display:flex;justify-content:center;padding-top:42px}
+
+/* Smaller logo, lifted toward the top edge */
+.nav .brand{top:-12px;width:min(52vw,930px);height:132px;transform:translateX(-19px)}
+@media(max-width:900px){.nav .brand{top:-7px;width:min(55vw,380px);height:82px}}
+@media(max-width:520px){.nav .brand{top:-5px;width:56vw;height:72px}}
