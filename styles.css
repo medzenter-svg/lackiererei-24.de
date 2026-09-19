@@ -90,6 +90,8 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 
 /* Phone number in the main navigation row */
 .nav{height:176px}.hero{padding-top:190px}
-.nav-links .menu-phone{margin-left:3px;padding:9px 13px;border:1px solid rgba(135,189,255,.42);color:#fff;font-weight:800;white-space:nowrap;background:rgba(5,12,21,.72)}
+.nav-links{align-items:center}
+.nav-links .menu-phone{margin-left:3px;padding:8px 12px;border:1px solid rgba(135,189,255,.42);color:#fff;font-size:12px;font-weight:800;white-space:nowrap;background:rgba(5,12,21,.72)}
 .nav-links .menu-phone:hover{border-color:var(--blue2);background:#142a45}
-@media(max-width:900px){.nav{height:108px}.hero{padding-top:125px}.nav-links .menu-phone{margin:8px 0 0;padding:13px;border-left:3px solid var(--blue)}}
+.language-switch{margin-top:31px!important}
+@media(max-width:900px){.nav{height:108px}.hero{padding-top:125px}.language-switch{margin:0!important}.nav-links .menu-phone{margin:8px 0 0;padding:13px;border-left:3px solid var(--blue)}}
