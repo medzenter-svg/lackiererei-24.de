@@ -114,3 +114,7 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .workshop-float b{font-size:16px}
 @media(max-width:900px){.workshop-float{left:14px;bottom:14px;min-width:205px;max-width:calc(100vw - 100px);min-height:46px;padding:0 13px;gap:14px;font-size:10px}.mobile-call{display:none}}
 @media(prefers-reduced-motion:reduce){.workshop-float{animation:none}}
+
+/* Match the natural technical photography used on the Leistungen catalogue. */
+.service-image img{filter:none}
+.service-photo:hover .service-image img{filter:brightness(1.03)}
