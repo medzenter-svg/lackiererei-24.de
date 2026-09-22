@@ -24,7 +24,7 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .legal-nav .brand-logo{display:block;width:310px;max-width:58vw;height:82px;object-fit:contain;object-position:left center}
 .legal-back{font-size:12px;font-weight:700;letter-spacing:.5px;color:#c7ced8;transition:.2s}
 .legal-back:hover{color:var(--blue2)}
-.legal-main{width:min(900px,calc(100% - 56px));margin:0 auto;padding:90px 0 120px}
+.legal-main{width:min(900px,calc(100% - 56px));margin:0 auto;padding:36px 0 120px}
 .legal-main>h1{font-size:clamp(54px,8vw,96px);margin:30px 0 70px}
 .legal-card{padding:36px 0;border-top:1px solid var(--line)}
 .legal-card h2{font-size:clamp(24px,3vw,34px);letter-spacing:-.025em;margin:0 0 24px}
@@ -40,7 +40,7 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .legal-footer p{margin:0}
 .legal-footer div{display:flex;gap:24px}
 .legal-footer a:hover{color:#fff}
-@media(max-width:650px){.legal-nav{min-height:94px;padding:12px 20px}.legal-nav .brand-logo{width:220px;height:66px}.legal-back{font-size:0}.legal-back::after{content:'← Zurück';font-size:11px}.legal-main{width:calc(100% - 40px);padding:65px 0 85px}.legal-main>h1{margin-bottom:48px}.legal-card{padding:30px 0}.legal-data div{grid-template-columns:1fr;gap:6px}.legal-footer{width:calc(100% - 40px);flex-direction:column}.legal-footer div{order:-1}}
+@media(max-width:650px){.legal-nav{min-height:94px;padding:12px 20px}.legal-nav .brand-logo{width:220px;height:66px}.legal-back{font-size:0}.legal-back::after{content:'← Zurück';font-size:11px}.legal-main{width:calc(100% - 40px);padding:26px 0 85px}.legal-main>h1{margin-bottom:48px}.legal-card{padding:30px 0}.legal-data div{grid-template-columns:1fr;gap:6px}.legal-footer{width:calc(100% - 40px);flex-direction:column}.legal-footer div{order:-1}}
 
 .special-projects{padding-top:0}.special-project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.special-project-card{display:flex;flex-direction:column;padding:36px;background:linear-gradient(145deg,#111925,#090c10);border:1px solid var(--line)}.special-project-card h3{font:600 clamp(28px,3vw,40px)/1.15 Arial,sans-serif;letter-spacing:-.03em;margin:14px 0 20px}.special-project-card>p:not(.eyebrow){color:var(--muted);font-size:15px;line-height:1.8;margin:0 0 28px}.special-project-card .btn{margin-top:auto;align-self:flex-start;gap:16px}@media(max-width:700px){.special-project-grid{grid-template-columns:1fr}.special-project-card{padding:26px}.special-project-card .btn{padding:14px 18px;text-align:center}}
 
