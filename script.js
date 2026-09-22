@@ -10,7 +10,8 @@ const setMany=(selector,texts)=>document.querySelectorAll(selector).forEach((el,
 if(lang==='ru'){
   document.title='Lackiererei 24 | Автосервис и покраска · Ландсхут и Мюнхен';
   document.querySelector('meta[name="description"]')?.setAttribute('content','Автосервис, покраска автомобилей и кузовной ремонт в Эргольдинге рядом с Ландсхутом и в Мюнхене. Покраска небольших самолётов и яхт по запросу. Говорим по-русски.');
-  setMany('.nav-links a',['Услуги','Почему мы','Как всё проходит','Контакты']);
+  setMany('.nav-links a',['Все 55 услуг','Почему мы','Как всё проходит','Контакты']);
+  const menuServices=document.querySelector('.menu-services');if(menuServices)menuServices.innerHTML='<span>Все 55 услуг</span><b>↗</b>';
   set('.hero .eyebrow','<span></span> Кузовной ремонт и покраска · Ландсхут и Мюнхен');
   set('.language-note','<span>Мы говорим по-русски · Wir sprechen auch Russisch</span>');
   set('.hero-call small','Позвонить сейчас');

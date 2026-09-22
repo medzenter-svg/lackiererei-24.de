@@ -93,8 +93,11 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .nav-links{align-items:center}
 .nav-links .menu-phone{margin-left:3px;padding:8px 12px;border:1px solid rgba(135,189,255,.42);color:#fff;font-size:12px;font-weight:800;white-space:nowrap;background:rgba(5,12,21,.72)}
 .nav-links .menu-phone:hover{border-color:var(--blue2);background:#142a45}
+.nav-links .menu-services{display:inline-flex;align-items:center;gap:18px;padding:11px 15px;background:var(--blue);border:1px solid var(--blue);color:#fff;font-weight:800;white-space:nowrap}
+.nav-links .menu-services:hover{color:#fff;background:#1676df;border-color:#1676df;transform:translateY(-1px)}
+.nav-links .menu-services b{font-size:16px;line-height:1}
 .language-switch{margin-top:31px!important}
-@media(max-width:900px){.nav{height:108px}.hero{padding-top:125px}.language-switch{margin:0!important}.nav-links .menu-phone{margin:8px 0 0;padding:13px;border-left:3px solid var(--blue)}}
+@media(max-width:900px){.nav{height:108px}.hero{padding-top:125px}.language-switch{margin:0!important}.nav-links .menu-services{justify-content:space-between;width:100%;padding:14px 16px}.nav-links .menu-phone{margin:8px 0 0;padding:13px;border-left:3px solid var(--blue)}}
 .all-services-link{display:flex;justify-content:center;padding-top:42px}
 
 /* Smaller logo, lifted toward the top edge */
