@@ -411,3 +411,10 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 @media(min-width:901px){
   .hero-content{transform:translateY(-72px)}
 }
+
+
+/* 2026-09-27: enlarge the two introductory hero lines */
+@media(min-width:901px){
+  .hero-content>.eyebrow{font-size:14px;letter-spacing:2.8px}
+  .hero-content>.language-note{font-size:14px!important}
+}
