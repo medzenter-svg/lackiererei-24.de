@@ -284,3 +284,16 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
   .nav-links .menu-services b{font-size:20px}
   .nav-links .menu-phone{font-size:15px;padding:13px 18px}
 }
+
+
+/* 2026-09-27: refined outline style for the services navigation button */
+.nav-links .menu-services{
+  background:rgba(5,8,12,.32);
+  border:1px solid rgba(255,255,255,.9);
+  color:#fff;
+}
+.nav-links .menu-services:hover{
+  background:rgba(255,255,255,.08);
+  border-color:#fff;
+  color:#fff;
+}
