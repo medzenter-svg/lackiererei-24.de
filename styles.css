@@ -204,3 +204,19 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
   box-shadow:0 12px 35px rgba(0,0,0,.45);
   backdrop-filter:blur(5px);
 }
+
+
+/* 2026-09-27: larger centered wheel-service numbers and labels */
+.wheel-number{
+  display:block;
+  width:100%;
+  text-align:center;
+  font-size:32px;
+  line-height:1;
+}
+.wheel-label{
+  font-size:15px!important;
+  line-height:1.4;
+  text-align:center;
+  letter-spacing:1.5px;
+}
