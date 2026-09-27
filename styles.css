@@ -150,3 +150,36 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 
 /* Center process card content */
 .process .step{text-align:center}.process .step p{max-width:420px;margin-left:auto;margin-right:auto}
+
+
+/* 2026-09-27: compact, fully centered process cards */
+.process .step{
+  min-height:210px;
+  padding:30px 34px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.process .step b{width:auto;margin:0;text-align:center}
+.process .step h3{margin:24px 0 12px;text-align:center}
+.process .step p{max-width:420px;margin:0 auto;text-align:center}
+
+/* Photography for aircraft and yacht projects */
+.special-project-card{padding:0 36px 36px;overflow:hidden}
+.special-project-photo{
+  display:block;
+  width:calc(100% + 72px);
+  height:260px;
+  margin:0 -36px 32px;
+  object-fit:cover;
+  object-position:center;
+}
+@media(max-width:900px){
+  .process .step{min-height:190px;padding:28px 24px}
+}
+@media(max-width:700px){
+  .special-project-card{padding:0 26px 30px}
+  .special-project-photo{width:calc(100% + 52px);height:220px;margin:0 -26px 26px}
+}
