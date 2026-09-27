@@ -136,3 +136,7 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .process .step b{font-size:24px;color:#ff2424;font-weight:800}
 
 .site-location{display:grid;grid-template-columns:.72fr 1.28fr;padding-top:25px}.site-location-copy{padding:58px 52px;background:#0b0f14;border:1px solid var(--line);display:flex;flex-direction:column;justify-content:center}.site-location-copy h2{font-size:clamp(42px,4.6vw,68px);margin:25px 0}.site-location-copy>p:not(.eyebrow){color:var(--muted);font-size:14px;line-height:1.75}.site-location-copy>a{display:flex;flex-direction:column;gap:8px;margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}.site-location-copy>a strong{font:600 16px/1.55 Space Grotesk}.site-location-copy>a b{font-size:10px;letter-spacing:1px;text-transform:uppercase;color:var(--blue2)}.site-location-map{min-height:480px;filter:grayscale(1) contrast(1.08);transition:filter .25s}.site-location-map:hover{filter:grayscale(.2)}.site-location-map iframe{display:block;width:100%;height:100%;min-height:480px;border:0}@media(max-width:900px){.site-location{grid-template-columns:1fr;padding-top:0}.site-location-copy{padding:44px 26px}.site-location-map,.site-location-map iframe{min-height:390px}}
+
+/* 2026-09-27 layout corrections */
+.process .step b{display:block;width:100%;text-align:center}.contact.section{padding-bottom:28px}.site-location.section{padding-top:0;padding-bottom:45px}
+@media(max-width:900px){.contact.section{padding-bottom:20px}.site-location.section{padding-top:0;padding-bottom:35px}}
