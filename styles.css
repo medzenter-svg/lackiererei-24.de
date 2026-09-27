@@ -220,3 +220,57 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
   text-align:center;
   letter-spacing:1.5px;
 }
+
+
+/* 2026-09-27: elegant red navigation rule and globally centered card content */
+.nav::after{
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:0;
+  height:1px;
+  background:#ff2424;
+  box-shadow:0 0 7px rgba(255,36,36,.6);
+  pointer-events:none;
+}
+.legal-nav{border-bottom-color:#ff2424}
+
+/* Main service catalogue cards */
+.service-card{text-align:center}
+.service-photo .num{
+  left:50%;
+  right:auto;
+  transform:translateX(-50%);
+  border-left:0;
+  border-bottom:2px solid #ff2424;
+  text-align:center;
+}
+.service-card h3,
+.service-card p{margin-left:auto;margin-right:auto;text-align:center}
+.service-card>a{
+  left:50%;
+  right:auto;
+  transform:translateX(-50%);
+  width:max-content;
+  max-width:calc(100% - 40px);
+  text-align:center;
+}
+
+/* Wheel, process and advantage cards */
+.wheel-card{text-align:center;align-items:center}
+.wheel-card h3,
+.wheel-card>p:last-child{text-align:center}
+.process .step{text-align:center;align-items:center}
+.advantage-card{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+}
+.advantage-icon{margin-left:auto;margin-right:auto}
+.advantage-card small,
+.advantage-card h3,
+.advantage-card p{text-align:center}
+.advantage-card p{max-width:420px;margin-left:auto;margin-right:auto}
