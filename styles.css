@@ -297,3 +297,31 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
   border-color:#fff;
   color:#fff;
 }
+
+
+/* 2026-09-27: replace bright blue fills with a dark technical palette */
+.btn.primary,
+.mobile-call{
+  background:#151c25;
+  border:1px solid rgba(255,255,255,.48);
+  color:#fff;
+}
+.btn.primary:hover,
+.mobile-call:hover{
+  background:#222c38;
+  border-color:#fff;
+}
+.pickup-icon{background:#151c25;border:1px solid rgba(255,255,255,.42)}
+.service-card.featured,
+.service-photo.featured,
+.wheel-card-main,
+.advantage-card.featured,
+.contact-card{
+  background:linear-gradient(145deg,#182331,#0b1017);
+}
+.service-card.featured:hover,
+.service-photo.featured:hover,
+.wheel-card-main:hover,
+.advantage-card.featured:hover{
+  background:linear-gradient(145deg,#223043,#111821);
+}
