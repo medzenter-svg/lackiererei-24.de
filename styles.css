@@ -371,3 +371,37 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 
 /* 2026-09-27: align language switch with the phone control */
 @media(min-width:901px){.language-switch{margin-top:43px!important}}
+
+
+/* 2026-09-27: harmonious desktop header and compact service transition */
+@media(min-width:901px){
+  .nav-links{
+    margin-top:42px;
+    align-items:center;
+    gap:34px;
+  }
+  .nav-links .menu-services,
+  .nav-links .menu-phone{
+    box-sizing:border-box;
+    min-height:58px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .nav-links .menu-services{padding:0 24px}
+  .nav-links .menu-phone{padding:0 18px}
+  .language-switch{
+    margin-top:42px!important;
+    box-sizing:border-box;
+    min-height:58px;
+    align-self:flex-start;
+  }
+}
+.special-projects.section{padding-bottom:28px}
+.wheel-service.section{padding-top:18px}
+.wheel-service-head{margin-top:34px}
+@media(max-width:900px){
+  .special-projects.section{padding-bottom:20px}
+  .wheel-service.section{padding-top:14px}
+  .wheel-service-head{margin-top:28px}
+}
