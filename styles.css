@@ -345,3 +345,12 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 /* 2026-09-27: raise the elegant red rule directly below the navigation */
 .nav::after{bottom:48px}
 @media(max-width:900px){.nav::after{bottom:0}}
+
+
+/* 2026-09-27: minimum transition space between process and contact */
+.process.section{padding-bottom:22px}
+.contact.section{padding-top:0}
+@media(max-width:900px){
+  .process.section{padding-bottom:16px}
+  .contact.section{padding-top:0}
+}
