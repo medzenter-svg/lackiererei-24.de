@@ -367,3 +367,7 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .wheel-card>p:last-child{color:#c8cfd8}
 .partner-card span{color:#c1c8d2}
 .trust-row{color:#c2c9d3}
+
+
+/* 2026-09-27: align language switch with the phone control */
+@media(min-width:901px){.language-switch{margin-top:43px!important}}
