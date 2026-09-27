@@ -144,3 +144,6 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 /* Full-width location map */
 .site-location.section{display:block;width:100%;max-width:none}.site-location-copy{padding-left:max(28px,calc((100vw - var(--max))/2));padding-right:max(28px,calc((100vw - var(--max))/2));border-left:0;border-right:0}.site-location-map{width:100%;min-height:500px}.site-location-map iframe{width:100%;min-height:500px}
 @media(max-width:900px){.site-location-copy{padding-left:20px;padding-right:20px}.site-location-map,.site-location-map iframe{min-height:420px}}
+
+/* Match location typography */
+.site-location-copy>a strong{font-family:Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.55;letter-spacing:0}
