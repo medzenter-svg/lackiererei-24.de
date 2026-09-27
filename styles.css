@@ -418,3 +418,27 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
   .hero-content>.eyebrow{font-size:14px;letter-spacing:2.8px}
   .hero-content>.language-note{font-size:14px!important}
 }
+
+
+/* 2026-09-27: turn the services box into a clean navigation link */
+@media(min-width:901px){
+  .nav-links .menu-services{
+    min-height:auto;
+    padding:8px 0;
+    border:0;
+    background:transparent;
+    gap:10px;
+    font-size:16px;
+  }
+  .nav-links .menu-services:hover{
+    border:0;
+    background:transparent;
+    color:#fff;
+  }
+  .nav-links .menu-services b{
+    font-size:13px;
+    line-height:1;
+    color:#ff2424;
+    transform:none;
+  }
+}
