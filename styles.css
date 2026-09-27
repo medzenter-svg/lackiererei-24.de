@@ -343,7 +343,7 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 
 
 /* 2026-09-27: raise the elegant red rule directly below the navigation */
-.nav::after{bottom:48px}
+.nav::after{bottom:67px}
 @media(max-width:900px){.nav::after{bottom:0}}
 
 
