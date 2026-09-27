@@ -10,3 +10,19 @@
 .seo-service-card span{margin-top:auto;padding-top:24px}
 .seo-service-card:hover .seo-card-photo{transform:translateY(-2px);border-color:#6d849c}
 @media(max-width:900px){.seo-hub-head{padding-bottom:12px}.seo-hub-head+.seo-group{padding-top:12px}}
+
+
+/* 2026-09-27: site-wide red navigation rule and centered catalogue cards */
+.seo-nav{
+  border-bottom:1px solid #ff2424;
+  box-shadow:0 1px 7px rgba(255,36,36,.32);
+}
+.seo-service-card{
+  align-items:center;
+  text-align:center;
+}
+.seo-service-card small,
+.seo-service-card h2,
+.seo-service-card p,
+.seo-service-card span{text-align:center}
+.seo-service-card p{max-width:440px;margin-left:auto;margin-right:auto}
