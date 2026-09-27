@@ -26,3 +26,11 @@
 .seo-service-card p,
 .seo-service-card span{text-align:center}
 .seo-service-card p{max-width:440px;margin-left:auto;margin-right:auto}
+
+
+/* 2026-09-27: brighter secondary copy on service pages */
+:root{--seo-muted:#c5ccd6}
+.seo-service-card p,
+.seo-content aside p,
+.seo-faq details p,
+.seo-footer{color:#c5ccd6}
