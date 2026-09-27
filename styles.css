@@ -274,3 +274,13 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 .advantage-card h3,
 .advantage-card p{text-align:center}
 .advantage-card p{max-width:420px;margin-left:auto;margin-right:auto}
+
+
+/* 2026-09-27: larger, clearer desktop navigation */
+@media(min-width:901px){
+  .nav-links{gap:38px}
+  .nav-links a{font-size:16px;font-weight:700}
+  .nav-links .menu-services{font-size:16px;padding:15px 20px;gap:24px}
+  .nav-links .menu-services b{font-size:20px}
+  .nav-links .menu-phone{font-size:15px;padding:13px 18px}
+}
