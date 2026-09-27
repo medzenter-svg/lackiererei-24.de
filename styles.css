@@ -147,3 +147,6 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 
 /* Match location typography */
 .site-location-copy>a strong{font-family:Arial,sans-serif;font-size:16px;font-weight:700;line-height:1.55;letter-spacing:0}
+
+/* Center process card content */
+.process .step{text-align:center}.process .step p{max-width:420px;margin-left:auto;margin-right:auto}
