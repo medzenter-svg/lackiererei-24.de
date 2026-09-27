@@ -359,3 +359,11 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
 /* 2026-09-27: remove empty transition below the quality panel */
 .process.section{padding-top:14px}
 @media(max-width:900px){.process.section{padding-top:10px}}
+
+
+/* 2026-09-27: brighter secondary copy for improved readability */
+:root{--muted:#c5ccd6}
+.service-card p{color:#c2cad5}
+.wheel-card>p:last-child{color:#c8cfd8}
+.partner-card span{color:#c1c8d2}
+.trust-row{color:#c2c9d3}
