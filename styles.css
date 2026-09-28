@@ -698,3 +698,25 @@ footer{font-size:14px}
 
 /* Brighter contact labels */
 .contact-actions small{color:#ff3138!important;font-size:clamp(17px,1.25vw,20px)!important;font-weight:800!important;letter-spacing:.12em;text-shadow:0 0 14px rgba(255,49,56,.18)}
+
+
+/* 2026-09-28: service numbers belong to the text area, never over people or photos */
+.service-photo .num{
+  top:auto;
+  bottom:62px;
+  left:50%;
+  right:auto;
+  transform:translateX(-50%);
+  padding:0;
+  background:transparent;
+  border:0;
+  color:#ff3138;
+  font-size:14px;
+  font-weight:800;
+  letter-spacing:.14em;
+  line-height:1;
+  backdrop-filter:none;
+}
+@media(max-width:900px){
+  .service-photo .num{bottom:61px}
+}
