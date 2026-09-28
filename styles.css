@@ -442,3 +442,20 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
     transform:none;
   }
 }
+
+
+/* 2026-09-28: clearly separate adjacent service photographs */
+.services-grid{
+  gap:8px;
+  border:0;
+  background:#06090d;
+}
+.services-grid .service-card{
+  border:1px solid #26313e;
+}
+.services-grid .service-image{
+  box-shadow:0 0 0 1px rgba(255,36,36,.28);
+}
+@media(max-width:900px){
+  .services-grid{gap:10px}
+}
