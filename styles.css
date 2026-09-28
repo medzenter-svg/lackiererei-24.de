@@ -729,8 +729,10 @@ footer{font-size:14px}
 }
 
 
-/* 2026-09-28: matching red outline for the workshop appointment CTA */
-.workshop-content .btn{
-  border-color:#ff3138 !important;
-  box-shadow:inset 0 0 0 1px rgba(255,49,56,.18);
+
+/* 2026-09-28: elegant vivid-red frame around the workshop photograph */
+.workshop-image{
+  position:relative;
+  outline:1px solid #ff3138;
+  outline-offset:-1px;
 }
