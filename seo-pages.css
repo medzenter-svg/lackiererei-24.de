@@ -34,3 +34,22 @@
 .seo-content aside p,
 .seo-faq details p,
 .seo-footer{color:#c5ccd6}
+
+
+/* 2026-09-28: 20% larger small typography on all service pages */
+.breadcrumbs{font-size:1.05rem}
+.seo-kicker{font-size:.98rem!important}
+.seo-nav nav a{font-size:1.05rem}
+.seo-service-card small{font-size:.9rem}
+.seo-service-card p{font-size:1.08rem}
+.seo-service-card span{font-size:1.05rem}
+.seo-content li{font-size:1.15rem}
+.seo-content aside small{font-size:.9rem}
+.seo-content aside p{font-size:1.06rem}
+.seo-faq details p{font-size:1.06rem}
+.seo-cta p{font-size:1.08rem}
+.seo-footer{font-size:1rem}
+@media(max-width:900px){
+  .seo-nav nav a{font-size:1rem}
+  .seo-phone{font-size:.95rem}
+}
