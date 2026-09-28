@@ -937,3 +937,56 @@ footer{font-size:14px}
   .menu-toggle{right:101px;min-width:60px;padding:0 8px;font-size:10px}
   .language-switch a{width:31px}
 }
+
+/* 2026-09-29: vivid workshop marker with softly radiating location waves */
+.site-location-map{position:relative;overflow:hidden}
+.map-location-pulse{
+  position:absolute;
+  left:50%;
+  top:46%;
+  z-index:4;
+  width:76px;
+  height:76px;
+  transform:translate(-50%,-50%);
+  pointer-events:none;
+}
+.map-location-pulse::before,
+.map-location-pulse::after{
+  content:"";
+  position:absolute;
+  inset:19px;
+  border:2px solid rgba(255,36,36,.9);
+  border-radius:50%;
+  animation:map-location-wave 2.4s ease-out infinite;
+}
+.map-location-pulse::after{animation-delay:1.2s}
+.map-location-pulse i{
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:34px;
+  height:34px;
+  background:#ff2424;
+  border:3px solid #fff;
+  border-radius:50% 50% 50% 0;
+  box-shadow:0 5px 18px rgba(255,36,36,.5);
+  transform:translate(-50%,-63%) rotate(-45deg);
+}
+.map-location-pulse i::after{
+  content:"";
+  position:absolute;
+  left:50%;
+  top:50%;
+  width:9px;
+  height:9px;
+  border-radius:50%;
+  background:#fff;
+  transform:translate(-50%,-50%);
+}
+@keyframes map-location-wave{
+  0%{opacity:.95;transform:scale(.45)}
+  75%,100%{opacity:0;transform:scale(2.35)}
+}
+@media(prefers-reduced-motion:reduce){
+  .map-location-pulse::before,.map-location-pulse::after{animation:none;inset:10px;opacity:.5}
+}
