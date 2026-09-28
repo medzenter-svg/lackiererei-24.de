@@ -1035,3 +1035,40 @@ footer{font-size:14px}
   }
   .nav-links{position:fixed}
 }
+
+/* 2026-09-29: one browser-safe elegant red arrow across the complete site */
+.red-arrow{
+  position:relative;
+  display:inline-block;
+  flex:0 0 30px;
+  width:30px;
+  height:18px;
+  margin:0;
+  font-size:0!important;
+  line-height:0;
+  color:transparent!important;
+  vertical-align:middle;
+}
+.red-arrow::before{
+  content:"";
+  position:absolute;
+  left:2px;
+  top:8px;
+  width:22px;
+  height:2px;
+  background:#ff3138;
+}
+.red-arrow::after{
+  content:"";
+  position:absolute;
+  right:3px;
+  top:4px;
+  width:8px;
+  height:8px;
+  border-top:2px solid #ff3138;
+  border-right:2px solid #ff3138;
+  transform:rotate(45deg);
+}
+.route-label{display:flex;align-items:center;gap:11px;color:#ff6868!important}
+.route-label .red-arrow{flex-basis:26px;width:26px}
+.route-label .red-arrow::before{width:18px}
