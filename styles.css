@@ -927,13 +927,13 @@ footer{font-size:14px}
   .hero{padding-top:112px}
 }
 @media(max-width:520px){
-  .nav .brand{width:48vw;height:78px}
+  .nav .brand{width:50.5vw;height:82px}
   .menu-toggle{top:19px;right:108px;min-width:66px;height:40px;padding:0 10px;font-size:11px}
   .language-switch{top:19px!important;right:9px!important;height:40px}
   .language-switch a{width:34px;height:32px;font-size:11px}
 }
 @media(max-width:390px){
-  .nav .brand{width:45vw;height:76px}
+  .nav .brand{width:47.5vw;height:80px}
   .menu-toggle{right:101px;min-width:60px;padding:0 8px;font-size:10px}
   .language-switch a{width:31px}
 }
