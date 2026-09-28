@@ -748,3 +748,12 @@ footer{font-size:14px}
   border-right-color:#ff3138;
   border-bottom-color:#ff3138;
 }
+
+
+/* 2026-09-28: let readable wheel-card copy determine row height */
+@media(min-width:901px){
+  .wheel-card{
+    height:auto !important;
+    min-height:360px;
+  }
+}
