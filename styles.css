@@ -680,3 +680,18 @@ footer{font-size:14px}
   .recovery-actions .btn{width:100%;justify-content:center;text-align:center}
   .recovery-mark{font-size:13rem;top:20px}
 }
+
+/* Customer reviews */
+.reviews{padding-top:clamp(56px,7vw,96px);padding-bottom:clamp(52px,7vw,92px)}
+.reviews-head{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(260px,.8fr);gap:clamp(30px,6vw,90px);align-items:end;margin:30px 0 34px}
+.reviews-head h2{margin:14px 0 0;font-size:clamp(38px,5vw,74px);line-height:.98;letter-spacing:-.045em}
+.reviews-head h2 em{color:#ff5b5f;font-style:normal}
+.reviews-head>p{margin:0;color:#d9dde5;font-size:clamp(18px,1.55vw,23px);line-height:1.65}
+.reviews-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.review-card{display:flex;flex-direction:column;min-height:310px;padding:clamp(26px,3vw,42px);background:#0b1118;border:1px solid #2a3440;border-top:2px solid #ff3138;text-align:center;justify-content:center;align-items:center}
+.review-stars{color:#ff3138;font-size:clamp(24px,2.2vw,34px);letter-spacing:.18em;line-height:1;margin-bottom:26px;text-shadow:0 0 18px rgba(255,49,56,.24)}
+.review-card blockquote{margin:0;color:#f4f6f8;font-size:clamp(18px,1.45vw,22px);line-height:1.65;font-style:normal}
+.review-card>p{margin:24px 0 0;color:#ff777b;font-size:16px;font-weight:700;letter-spacing:.04em}
+.reviews-slogan{text-align:center;margin:32px 0 0;color:#d9dde5;font-size:clamp(19px,1.6vw,24px);letter-spacing:.02em}
+.reviews-slogan strong{color:#fff}
+@media(max-width:900px){.reviews-head{grid-template-columns:1fr}.reviews-grid{grid-template-columns:1fr}.review-card{min-height:0}.reviews-head h2{font-size:clamp(36px,10vw,56px)}}

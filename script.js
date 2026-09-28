@@ -85,6 +85,13 @@ if(lang==='ru'){
   setMany('.contact-actions small',['Телефон','Электронная почта','Адрес']);
   set('footer>p','Кузов. Покраска. Совершенство.');
   setMany('footer>div a',['Контакты','Правовая информация','Защита данных']);
+  set('.reviews .section-kicker','05 / Отзывы клиентов');
+  set('.reviews .eyebrow','<span></span> За что нас ценят клиенты');
+  set('.reviews h2','Качество, которое убеждает.<br><em>Сервис, которому доверяют.</em>');
+  set('.reviews-head>p','Персональная консультация, точная работа и надёжная организация — именно это особенно важно нашим клиентам.');
+  setMany('.review-card blockquote',['„Очень доброжелательное общение, прозрачная консультация и аккуратный ремонт. Автомобиль был готов даже раньше, чем я ожидал.“','„Всё прошло надёжно — от вывоза автомобиля до его возвращения. Особенно приятно, что все работы объясняли понятно и подробно.“','„Покраска и кузовные работы выполнены очень точно. Цвет совпал идеально — следов повреждения больше не видно.“']);
+  setMany('.review-card>p',['— Клиент из Ландсхута','— Корпоративный клиент из Эргольдинга','— Клиент из Мюнхена']);
+  set('.reviews-slogan','Качество, которое убеждает. <strong>Сервис, на который можно положиться.</strong>');
 }
 const io=new IntersectionObserver((entries)=>entries.forEach((entry)=>{if(entry.isIntersecting){entry.target.classList.add('reveal');io.unobserve(entry.target)}}),{threshold:.12});
-document.querySelectorAll('.service-card,.wheel-card,.step,.contact-card').forEach(el=>io.observe(el));
+document.querySelectorAll('.service-card,.wheel-card,.step,.review-card,.contact-card').forEach(el=>io.observe(el));
