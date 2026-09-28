@@ -53,3 +53,14 @@
   .seo-nav nav a{font-size:1rem}
   .seo-phone{font-size:.95rem}
 }
+
+
+/* 2026-09-28: keep service catalogue cards at their original size */
+@media(min-width:901px){
+  .seo-service-card{
+    box-sizing:border-box;
+    height:300px;
+    min-height:300px;
+    overflow:hidden;
+  }
+}
