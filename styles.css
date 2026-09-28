@@ -581,3 +581,31 @@ footer{font-size:14px}
     letter-spacing:2.2px;
   }
 }
+
+
+/* 2026-09-28: premium key handover photo for pickup service */
+.advantage-card.pickup-featured{
+  padding:0 30px 30px;
+  overflow:hidden;
+}
+.pickup-handover-photo{
+  display:block;
+  width:calc(100% + 60px);
+  height:176px;
+  margin:0 -30px 24px;
+  object-fit:cover;
+  object-position:center;
+  border-bottom:1px solid rgba(255,255,255,.24);
+}
+.advantage-card.pickup-featured small{
+  font-size:13px;
+  color:#fff;
+}
+@media(max-width:700px){
+  .advantage-card.pickup-featured{padding:0 24px 28px}
+  .pickup-handover-photo{
+    width:calc(100% + 48px);
+    height:210px;
+    margin:0 -24px 24px;
+  }
+}
