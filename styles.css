@@ -768,3 +768,10 @@ footer{font-size:14px}
   border-right-color:rgba(255,255,255,.62);
   border-bottom-color:rgba(255,255,255,.62);
 }
+
+
+/* 2026-09-28: brighter fine frames around partner cards */
+.partner-grid{
+  border-color:rgba(255,255,255,.62);
+  background:rgba(255,255,255,.62);
+}
