@@ -759,12 +759,12 @@ footer{font-size:14px}
 
 /* 2026-09-28: thin vivid-red separators for wheel-service cards */
 .wheel-grid{
-  border-top-color:#ff3138;
-  border-left-color:#ff3138;
+  border-top-color:rgba(255,255,255,.48);
+  border-left-color:rgba(255,255,255,.48);
 }
 .wheel-card{
-  border-right-color:#ff3138;
-  border-bottom-color:#ff3138;
+  border-right-color:rgba(255,255,255,.48);
+  border-bottom-color:rgba(255,255,255,.48);
 }
 
 
