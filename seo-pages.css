@@ -89,3 +89,41 @@
   .seo-nav nav>.seo-back{display:inline-flex}
   .seo-back{min-height:38px;padding:7px 11px;font-size:.9rem!important}
 }
+
+
+/* 2026-09-28: universal return button on every individual service page */
+body:has(.seo-hero) .seo-nav nav > a:first-child{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:40px;
+  padding:7px 15px;
+  border:1px solid rgba(255,255,255,.72);
+  color:#fff;
+  font-size:0;
+  line-height:1;
+  letter-spacing:.03em;
+  transition:border-color .2s ease,color .2s ease,background .2s ease;
+}
+body:has(.seo-hero) .seo-nav nav > a:first-child::before{
+  content:"← Zurück";
+  font-size:1rem;
+  font-weight:800;
+}
+html[lang="ru"] body:has(.seo-hero) .seo-nav nav > a:first-child::before{
+  content:"← Назад";
+}
+body:has(.seo-hero) .seo-nav nav > a:first-child:hover{
+  border-color:#ff3138;
+  color:#ff6868;
+  background:rgba(255,49,56,.07);
+}
+@media(max-width:900px){
+  body:has(.seo-hero) .seo-nav nav > a:first-child{
+    min-height:36px;
+    padding:6px 10px;
+  }
+  body:has(.seo-hero) .seo-nav nav > a:first-child::before{
+    font-size:.9rem;
+  }
+}
