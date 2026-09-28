@@ -84,6 +84,8 @@ if(lang==='ru'){
   set('.contact-copy>p','Первая оценка начинается с короткого разговора. Позвоните нам или напишите по электронной почте.');
   setMany('.contact-actions small',['Телефон','Электронная почта','Адрес']);
   set('footer>p','Кузов. Покраска. Совершенство.');
+  set('.back-to-top span','Наверх');
+  document.querySelector('.back-to-top')?.setAttribute('aria-label','Вернуться в начало страницы');
   setMany('footer>div a',['Контакты','Правовая информация','Защита данных']);
   set('.reviews .section-kicker','05 / Отзывы клиентов');
   set('.reviews .eyebrow','<span></span> За что нас ценят клиенты');
