@@ -566,6 +566,24 @@ footer{font-size:14px}
 }
 
 
+/* Center the mobile footer as one balanced vertical group. */
+@media (max-width:900px){
+  footer{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:24px;
+    text-align:center;
+    padding:48px 16px 150px;
+  }
+  footer .brand{justify-content:center;width:100%}
+  footer .brand-logo{object-position:center;width:min(100%,300px);height:auto}
+  footer p{margin:0}
+  footer>div{justify-content:center;flex-wrap:wrap;column-gap:22px;row-gap:12px;width:100%}
+  footer small{display:block;text-align:center}
+}
+@media (max-width:420px){footer>div{column-gap:16px}}
 /* 2026-09-28: stronger premium section label */
 .special-projects > .section-kicker{
   color:#ff3838;
