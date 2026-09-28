@@ -524,3 +524,43 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
     margin-right:0;
   }
 }
+
+
+/* 2026-09-28: final bilingual small-type accessibility audit */
+.brand small{font-size:10px}
+.hero-call small{font-size:12px}
+.btn{font-size:15px}
+.scroll-hint{font-size:12px}
+.quality-copy li{font-size:16px}
+footer{font-size:14px}
+.mobile-call{font-size:16px}
+.curb-callout small{font-size:12px}
+.curb-callout>p{font-size:16px}
+.language-note{font-size:14px}
+.language-switch a{font-size:12px}
+.legal-back{font-size:14px}
+.legal-data dt{font-size:14px}
+.legal-data dd{font-size:17px}
+.legal-footer{font-size:14px}
+.workshop-float{font-size:13px}
+.site-location-copy>a b{font-size:12px}
+
+/* Brighter and larger contact labels in both languages */
+.contact-actions small{
+  font-size:14px;
+  line-height:1.25;
+  font-weight:800;
+  letter-spacing:1.7px;
+  color:#ff929d;
+  text-shadow:0 0 14px rgba(255,90,105,.2);
+}
+.contact-actions strong{
+  font-size:17px;
+  line-height:1.35;
+}
+@media(max-width:900px){
+  footer{font-size:14px}
+  .mobile-call{font-size:15px}
+  .contact-actions small{font-size:14px}
+  .contact-actions strong{font-size:16px}
+}
