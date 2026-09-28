@@ -990,3 +990,48 @@ footer{font-size:14px}
 @media(prefers-reduced-motion:reduce){
   .map-location-pulse::before,.map-location-pulse::after{animation:none;inset:10px;opacity:.5}
 }
+
+/* 2026-09-29: elegant red arrow in the main hero action */
+.hero-actions .btn.primary b{
+  position:relative;
+  flex:0 0 30px;
+  width:30px;
+  height:18px;
+  margin-left:28px;
+  font-size:0;
+}
+.hero-actions .btn.primary b::before{
+  content:"";
+  position:absolute;
+  left:2px;
+  top:8px;
+  width:22px;
+  height:2px;
+  background:#ff3138;
+}
+.hero-actions .btn.primary b::after{
+  content:"";
+  position:absolute;
+  right:3px;
+  top:4px;
+  width:8px;
+  height:8px;
+  border-top:2px solid #ff3138;
+  border-right:2px solid #ff3138;
+  transform:rotate(45deg);
+}
+
+/* Keep the agreed mobile MENÜ and DE/RU controls visible while scrolling */
+@media(max-width:900px){
+  .nav{
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+    background:rgba(5,7,10,.94);
+    box-shadow:0 8px 25px rgba(0,0,0,.28);
+    backdrop-filter:blur(10px);
+  }
+  .nav-links{position:fixed}
+}
