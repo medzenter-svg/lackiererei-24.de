@@ -504,3 +504,23 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
   }
   .advantage-card{box-sizing:border-box}
 }
+
+
+/* 2026-09-28: align special-project image and copy on mobile */
+@media(max-width:900px){
+  .special-project-card{
+    box-sizing:border-box;
+    padding:0 8px 30px;
+  }
+  .special-project-photo{
+    width:calc(100% + 16px);
+    margin:0 -8px 26px;
+  }
+  .special-project-card .eyebrow,
+  .special-project-card h3,
+  .special-project-card>p:not(.eyebrow),
+  .special-project-card .btn{
+    margin-left:0;
+    margin-right:0;
+  }
+}
