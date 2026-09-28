@@ -8,6 +8,7 @@ document.querySelector('[data-lang="'+lang+'"]')?.classList.add('active');
 const set=(selector,text)=>{const el=document.querySelector(selector);if(el)el.innerHTML=text};
 const setMany=(selector,texts)=>document.querySelectorAll(selector).forEach((el,i)=>{if(texts[i]!==undefined)el.innerHTML=texts[i]});
 if(lang==='ru'){
+  if(toggle){toggle.querySelector('span').textContent='МЕНЮ';toggle.setAttribute('aria-label','Открыть меню')}
   document.title='Lackiererei 24 | Автосервис и покраска · Ландсхут и Мюнхен';
   document.querySelector('meta[name="description"]')?.setAttribute('content','Автосервис, покраска автомобилей и кузовной ремонт в Эргольдинге рядом с Ландсхутом и в Мюнхене. Покраска небольших самолётов и яхт по запросу. Говорим по-русски.');
   setMany('.nav-links a',['Все 55 услуг','Почему мы','Как всё проходит','Контакты']);

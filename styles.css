@@ -871,3 +871,69 @@ footer{font-size:14px}
 @media(max-width:900px){
   .whatsapp-float{right:4px}
 }
+
+/* 2026-09-29: balanced mobile header — real menu button followed by DE/RU */
+@media(max-width:900px){
+  .nav{
+    height:96px;
+    min-height:96px;
+    padding:0 14px;
+    align-items:flex-start;
+  }
+  .nav .brand{
+    top:2px;
+    left:12px;
+    width:min(46vw,290px);
+    height:76px;
+    transform:none;
+  }
+  .menu-toggle{
+    position:absolute;
+    top:22px;
+    right:116px;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    width:auto;
+    min-width:72px;
+    height:42px;
+    margin:0;
+    padding:0 13px;
+    border:1px solid rgba(255,255,255,.48);
+    background:rgba(4,8,13,.84);
+    color:#fff;
+    font:800 12px/1 Arial,Helvetica,sans-serif;
+    letter-spacing:.1em;
+  }
+  .menu-toggle span{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:0;
+    background:none;
+  }
+  .language-switch{
+    top:22px!important;
+    right:12px!important;
+    height:42px;
+    margin:0!important;
+    padding:3px!important;
+  }
+  .language-switch a:hover,
+  .language-switch a.active{background:#10151c!important}
+  .language-switch a{width:38px;height:34px;font-size:12px}
+  .nav-links{top:96px;padding-top:25px}
+  .nav::after{bottom:0}
+  .hero{padding-top:112px}
+}
+@media(max-width:520px){
+  .nav .brand{width:43vw;height:70px}
+  .menu-toggle{top:19px;right:108px;min-width:66px;height:40px;padding:0 10px;font-size:11px}
+  .language-switch{top:19px!important;right:9px!important;height:40px}
+  .language-switch a{width:34px;height:32px;font-size:11px}
+}
+@media(max-width:390px){
+  .nav .brand{width:40vw}
+  .menu-toggle{right:101px;min-width:60px;padding:0 8px;font-size:10px}
+  .language-switch a{width:31px}
+}
