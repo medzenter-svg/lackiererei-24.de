@@ -564,3 +564,20 @@ footer{font-size:14px}
   .contact-actions small{font-size:14px}
   .contact-actions strong{font-size:16px}
 }
+
+
+/* 2026-09-28: stronger premium section label */
+.special-projects > .section-kicker{
+  color:#ff3838;
+  font-size:18px;
+  font-weight:800;
+  letter-spacing:2.6px;
+  text-shadow:0 0 14px rgba(255,36,36,.28);
+}
+@media(max-width:700px){
+  .special-projects > .section-kicker{
+    font-size:18px;
+    line-height:1.45;
+    letter-spacing:2.2px;
+  }
+}
