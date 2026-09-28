@@ -64,3 +64,28 @@
     overflow:hidden;
   }
 }
+
+
+/* 2026-09-28: clear return button on service catalogue */
+.seo-back{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-height:42px;
+  padding:9px 16px;
+  border:1px solid rgba(255,255,255,.65);
+  color:#fff!important;
+  font-weight:750;
+  letter-spacing:.02em;
+  transition:border-color .2s ease,color .2s ease,background .2s ease;
+}
+.seo-back:hover{
+  border-color:#ff2424;
+  color:#ff6868!important;
+  background:rgba(255,36,36,.06);
+}
+@media(max-width:900px){
+  .seo-nav nav{gap:10px}
+  .seo-nav nav>.seo-back{display:inline-flex}
+  .seo-back{min-height:38px;padding:7px 11px;font-size:.9rem!important}
+}
