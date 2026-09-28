@@ -487,3 +487,20 @@ h1 em{display:inline-block;margin-top:.12em;font-family:Georgia,"Times New Roman
   .step p{font-size:16px}
   .workshop-content>p:not(.eyebrow){font-size:17px}
 }
+
+
+/* 2026-09-28: preserve original card dimensions with larger readable text */
+@media(min-width:901px){
+  .service-card.service-photo{
+    box-sizing:border-box;
+    height:540px;
+    min-height:540px;
+    overflow:hidden;
+  }
+  .wheel-card{
+    box-sizing:border-box;
+    height:300px;
+    min-height:300px;
+  }
+  .advantage-card{box-sizing:border-box}
+}
