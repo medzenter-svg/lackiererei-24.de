@@ -695,3 +695,6 @@ footer{font-size:14px}
 .reviews-slogan{text-align:center;margin:32px 0 0;color:#d9dde5;font-size:clamp(19px,1.6vw,24px);letter-spacing:.02em}
 .reviews-slogan strong{color:#fff}
 @media(max-width:900px){.reviews-head{grid-template-columns:1fr}.reviews-grid{grid-template-columns:1fr}.review-card{min-height:0}.reviews-head h2{font-size:clamp(36px,10vw,56px)}}
+
+/* Brighter contact labels */
+.contact-actions small{color:#ff3138!important;font-size:clamp(17px,1.25vw,20px)!important;font-weight:800!important;letter-spacing:.12em;text-shadow:0 0 14px rgba(255,49,56,.18)}
