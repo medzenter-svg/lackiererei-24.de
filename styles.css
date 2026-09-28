@@ -720,3 +720,10 @@ footer{font-size:14px}
 @media(max-width:900px){
   .service-photo .num{bottom:61px}
 }
+
+
+/* 2026-09-28: vivid red outline for the complete-services CTA */
+.all-services-link .btn{
+  border-color:#ff3138 !important;
+  box-shadow:inset 0 0 0 1px rgba(255,49,56,.18);
+}
