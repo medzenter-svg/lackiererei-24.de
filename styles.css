@@ -736,3 +736,10 @@ footer{font-size:14px}
   outline:1px solid #ff3138;
   outline-offset:-1px;
 }
+
+
+/* 2026-09-28: match the workshop CTA to the framed photograph */
+.workshop-content .btn{
+  border-color:#ff3138 !important;
+  box-shadow:inset 0 0 0 1px rgba(255,49,56,.18);
+}
