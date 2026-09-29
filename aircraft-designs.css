@@ -11,3 +11,9 @@
 /* One identical panoramic frame for every design: no uneven black gaps. */
 .design-card img,.design-card.featured img{height:auto;aspect-ratio:2/1;object-fit:cover;object-position:center center}
 @media(max-width:780px){.design-card img,.design-card.featured img{height:auto;aspect-ratio:2/1}}
+
+.model-collection{margin:0 0 72px}
+.model-heading{text-align:center;padding:18px 24px 30px}
+.model-heading .seo-kicker{margin-bottom:12px}
+.model-heading h2{margin:0;font-size:clamp(2.2rem,5vw,4.8rem);letter-spacing:-.04em}
+.model-collection .design-gallery{margin-bottom:0}
