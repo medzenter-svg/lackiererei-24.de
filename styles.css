@@ -1084,3 +1084,16 @@ footer{font-size:14px}
   object-position:center!important;
 }
 .service-photo:hover .service-image img{transform:none!important}
+
+/* 2026-09-29: every photo card grows with its complete image and copy. */
+.service-card.service-photo{
+  height:auto!important;
+  min-height:0!important;
+  overflow:visible!important;
+  padding-bottom:86px;
+}
+.intro.section{padding-bottom:52px}
+@media(max-width:900px){
+  .service-card.service-photo{height:auto!important;min-height:0!important;padding-bottom:84px}
+  .intro.section{padding-bottom:38px}
+}
