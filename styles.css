@@ -1097,3 +1097,14 @@ footer{font-size:14px}
   .service-card.service-photo{height:auto!important;min-height:0!important;padding-bottom:84px}
   .intro.section{padding-bottom:38px}
 }
+
+/* Compact callback form in the contact panel. */
+.callback-form{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:30px;padding-top:28px;border-top:1px solid rgba(255,255,255,.28)}
+.callback-title{grid-column:1/-1;margin:0;color:#fff;font-size:20px;font-weight:800}
+.callback-form label{display:flex;flex-direction:column;gap:9px}
+.callback-form label span{color:#ff6868;font-size:13px;font-weight:800;letter-spacing:.09em;text-transform:uppercase}
+.callback-form input{width:100%;height:52px;padding:0 15px;border:1px solid rgba(255,255,255,.55);border-radius:0;background:#080c11;color:#fff;font:600 17px Arial;outline:none}
+.callback-form input:focus{border-color:#ff3138;box-shadow:0 0 0 1px #ff3138}
+.callback-form button{grid-column:1/-1;height:52px;display:flex;align-items:center;justify-content:center;gap:18px;border:1px solid #ff3138;background:#080c11;color:#fff;font:800 15px Arial;cursor:pointer}
+.callback-form button:hover{background:#111821}
+@media(max-width:520px){.callback-form{grid-template-columns:1fr}.callback-form label,.callback-form button,.callback-title{grid-column:1}}

@@ -84,6 +84,9 @@ if(lang==='ru'){
   set('.contact h2','Покажите нам<br><em>повреждение.</em>');
   set('.contact-copy>p','Первая оценка начинается с короткого разговора. Позвоните нам или напишите по электронной почте.');
   setMany('.contact-actions small',['Телефон','Электронная почта','Адрес']);
+  set('.callback-title','Заказать обратный звонок');
+  setMany('.callback-form label span',['Имя','Номер телефона']);
+  set('.callback-form button','Отправить <b class="red-arrow" aria-hidden="true"></b>');
   set('footer>p','Кузов. Покраска. Совершенство.');
   set('.back-to-top span','Наверх');
   document.querySelector('.back-to-top')?.setAttribute('aria-label','Вернуться в начало страницы');
@@ -98,3 +101,15 @@ if(lang==='ru'){
 }
 const io=new IntersectionObserver((entries)=>entries.forEach((entry)=>{if(entry.isIntersecting){entry.target.classList.add('reveal');io.unobserve(entry.target)}}),{threshold:.12});
 document.querySelectorAll('.service-card,.wheel-card,.step,.review-card,.contact-card').forEach(el=>io.observe(el));
+
+document.querySelector('#callback-form')?.addEventListener('submit',(event)=>{
+  event.preventDefault();
+  const form=new FormData(event.currentTarget);
+  const name=String(form.get('name')||'').trim();
+  const phone=String(form.get('phone')||'').trim();
+  if(!name||!phone)return;
+  const message=lang==='ru'
+    ? `Здравствуйте! Прошу перезвонить мне.\nИмя: ${name}\nТелефон: ${phone}`
+    : `Guten Tag! Bitte rufen Sie mich zurück.\nName: ${name}\nTelefonnummer: ${phone}`;
+  window.open(`https://wa.me/4917624402933?text=${encodeURIComponent(message)}`,'_blank','noopener');
+});
