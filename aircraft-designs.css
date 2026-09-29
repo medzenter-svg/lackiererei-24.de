@@ -4,3 +4,6 @@
 .design-card img{aspect-ratio:auto;height:clamp(340px,31vw,540px);object-position:center}
 .design-card.featured img{height:clamp(400px,48vw,720px)}
 @media(max-width:780px){.design-card.featured img,.design-card img{aspect-ratio:auto;height:clamp(240px,62vw,430px)}}
+
+/* Align the visible photographs, not only their outer card boxes. */
+.design-card img,.design-card.featured img{object-position:center top}
