@@ -7,3 +7,7 @@
 
 /* Align the visible photographs, not only their outer card boxes. */
 .design-card img,.design-card.featured img{object-position:center top}
+
+/* One identical panoramic frame for every design: no uneven black gaps. */
+.design-card img,.design-card.featured img{height:auto;aspect-ratio:2/1;object-fit:cover;object-position:center center}
+@media(max-width:780px){.design-card img,.design-card.featured img{height:auto;aspect-ratio:2/1}}
