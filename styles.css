@@ -1072,3 +1072,15 @@ footer{font-size:14px}
 .route-label{display:flex;align-items:center;gap:11px;color:#ff6868!important}
 .route-label .red-arrow{flex-basis:26px;width:26px}
 .route-label .red-arrow::before{width:18px}
+
+/* Show every service photograph in full; never crop people, cars or tools. */
+.service-image{
+  height:auto!important;
+  aspect-ratio:16/9;
+  background:#07090c;
+}
+.service-image img{
+  object-fit:contain!important;
+  object-position:center!important;
+}
+.service-photo:hover .service-image img{transform:none!important}

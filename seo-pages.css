@@ -54,6 +54,15 @@
   .seo-phone{font-size:.95rem}
 }
 
+/* Keep the complete photograph visible in every service overview card. */
+.seo-card-photo{
+  height:auto;
+  aspect-ratio:16/9;
+  object-fit:contain;
+  object-position:center;
+  background:#07090c;
+}
+
 
 /* 2026-09-28: keep service catalogue cards at their original size */
 @media(min-width:901px){
