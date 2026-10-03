@@ -64,13 +64,13 @@
 }
 
 
-/* 2026-09-28: keep service catalogue cards at their original size */
+/* Desktop catalogue cards must grow with their complete heading and copy. */
 @media(min-width:901px){
   .seo-service-card{
     box-sizing:border-box;
-    height:300px;
-    min-height:300px;
-    overflow:hidden;
+    height:auto;
+    min-height:0;
+    overflow:visible;
   }
 }
 
