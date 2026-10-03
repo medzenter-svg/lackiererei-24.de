@@ -10,7 +10,7 @@
 
   const stylesheet = document.createElement('link');
   stylesheet.rel = 'stylesheet';
-  stylesheet.href = `${siteRoot}floating-controls.css?v=20261003-1838`;
+  stylesheet.href = `${siteRoot}floating-controls.css?v=20260929-0045`;
   document.head.appendChild(stylesheet);
 
   const appointment = document.createElement('a');
@@ -36,20 +36,6 @@
     const footer = document.querySelector('footer');
     if (footer) footer.before(backRow);
     else document.body.appendChild(backRow);
-  }
-
-  if (!document.querySelector('.back-to-top')) {
-    const backToTop = document.createElement('button');
-    backToTop.type = 'button';
-    backToTop.className = 'back-to-top';
-    backToTop.setAttribute('aria-label', isRussian ? 'Вернуться в начало страницы' : 'Zurück zum Seitenanfang');
-    backToTop.innerHTML = `<span>${isRussian ? 'Наверх' : 'Nach oben'}</span><b aria-hidden="true">↑</b>`;
-    backToTop.addEventListener('click', () => {
-      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
-    });
-    const footer = document.querySelector('footer');
-    if (footer) footer.before(backToTop);
-    else document.body.appendChild(backToTop);
   }
 
   document.body.append(appointment, whatsapp);
