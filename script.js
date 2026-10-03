@@ -113,3 +113,8 @@ document.querySelector('#callback-form')?.addEventListener('submit',(event)=>{
     : `Guten Tag! Bitte rufen Sie mich zurück.\nName: ${name}\nTelefonnummer: ${phone}`;
   window.open(`https://wa.me/4917624402933?text=${encodeURIComponent(message)}`,'_blank','noopener');
 });
+
+document.querySelector('.back-to-top')?.addEventListener('click',(event)=>{
+  event.preventDefault();
+  window.scrollTo({top:0,left:0,behavior:'smooth'});
+});
