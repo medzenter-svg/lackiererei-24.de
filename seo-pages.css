@@ -122,6 +122,11 @@ body:has(.seo-hero) .seo-nav nav > a:first-child::before{
 html[lang="ru"] body:has(.seo-hero) .seo-nav nav > a:first-child::before{
   content:"← Назад";
 }
+
+/* 2026-10-03: logo enlarged by 10% while preserving its proportions. */
+.seo-brand{width:min(484px,41.8vw)}
+.seo-brand img{max-height:95px}
+@media(max-width:900px){.seo-brand{width:253px}}
 body:has(.seo-hero) .seo-nav nav > a:first-child:hover{
   border-color:#ff3138;
   color:#ff6868;
