@@ -1323,3 +1323,16 @@ body{background:#fff}
   .language-switch a{color:#dbeaff!important}
   .language-switch a.active{background:#fff!important;color:#062d67!important}
 }
+
+
+/* 2026-10-05: remove black rectangle from original transparent-style logo presentation */
+@media(min-width:901px){
+  .nav .brand{
+    background:#062d67!important;
+    overflow:hidden!important;
+  }
+  .nav .brand-logo{
+    mix-blend-mode:screen;
+    background:transparent!important;
+  }
+}
