@@ -293,3 +293,13 @@ html,body{max-width:100%;overflow-x:hidden}
 .seo-brand .seo-wordmark b{font-size:24px;font-weight:900;letter-spacing:-.04em}
 .seo-brand .seo-wordmark strong{font-size:28px;font-weight:900;color:#55a9ef;margin-left:3px}
 .seo-brand .seo-wordmark em{font-size:18px;font-style:normal;font-weight:800;color:#fff}
+
+
+/* restore original complete logo (car + spray gun + wordmark) */
+.seo-nav .seo-brand img{
+  display:block!important;width:310px!important;max-width:32vw!important;height:auto!important;
+  object-fit:contain!important;background:transparent!important;
+  mix-blend-mode:screen!important;filter:none!important;border:0!important;
+}
+.seo-brand .seo-wordmark{display:none!important}
+@media(max-width:900px){.seo-nav .seo-brand img{width:230px!important;max-width:52vw!important}}
