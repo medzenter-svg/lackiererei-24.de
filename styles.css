@@ -1347,3 +1347,24 @@ body{background:#fff}
 }
 footer .brand{background:#062d67}
 footer .brand-logo{mix-blend-mode:screen!important;background:transparent!important}
+
+
+/* 2026-10-05: final brand treatment — no black logo blocks anywhere */
+.nav .brand,.nav .brand-logo,footer .brand,footer .brand-logo{
+  background:#062d67!important;
+}
+.nav .brand-logo,footer .brand-logo{
+  mix-blend-mode:screen!important;
+}
+footer{
+  background:#062d67!important;
+  color:#dceaff!important;
+  max-width:none!important;
+  padding-left:max(28px,calc((100vw - var(--max))/2))!important;
+  padding-right:max(28px,calc((100vw - var(--max))/2))!important;
+}
+footer a,footer>div a{color:#fff!important}
+@media(min-width:901px){
+ .nav .brand{width:520px;height:122px;flex-basis:520px}
+ .nav .brand-logo{object-fit:contain;object-position:left center}
+}
