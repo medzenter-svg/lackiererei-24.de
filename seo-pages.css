@@ -141,3 +141,24 @@ body:has(.seo-hero) .seo-nav nav > a:first-child:hover{
     font-size:.9rem;
   }
 }
+
+
+/* 2026-10-05: white/deep-blue redesign for all service/SEO subpages */
+:root{--seo-navy:#062d67;--seo-blue:#0b5da8;--seo-ice:#f4f8fc;--seo-line:#c8d8e8;--seo-text:#102b4e}
+body{background:#fff!important;color:var(--seo-text)!important}
+.page-header,.seo-header,.service-header,header{background:var(--seo-navy)!important;border-bottom-color:#2c78bd!important}
+.page-header .brand,.seo-header .brand,.service-header .brand,header .brand{background:transparent!important}
+header img[src*="logo-black"],.page-header img[src*="logo-black"],.seo-header img[src*="logo-black"]{mix-blend-mode:screen!important}
+header a,.page-header a,.seo-header a,.service-header a{color:#fff!important}
+main,.seo-main,.service-main{background:#fff!important}
+.hero,.seo-hero,.service-hero{background:#f7faff!important;color:var(--seo-text)!important;border-color:var(--seo-line)!important}
+.hero h1,.seo-hero h1,.service-hero h1,h1{color:var(--seo-navy)!important}
+.hero p,.seo-hero p,.service-hero p{color:#526b85!important}
+.eyebrow,.kicker,.section-kicker,.category-title{color:var(--seo-blue)!important}
+section{border-color:var(--seo-line)!important}
+.card,.service-card,.seo-card,.service-item,.service-tile,.leistung-card{background:#fff!important;color:var(--seo-text)!important;border-color:var(--seo-line)!important}
+.card h2,.card h3,.service-card h2,.service-card h3,.seo-card h2,.seo-card h3,.service-item h2,.service-item h3{color:var(--seo-navy)!important}
+.card p,.service-card p,.seo-card p,.service-item p{color:#526b85!important}
+.btn,.button,.cta{background:var(--seo-navy)!important;color:#fff!important;border-color:var(--seo-blue)!important}
+footer{background:var(--seo-navy)!important;color:#dceaff!important;border-color:#2c78bd!important}
+footer a{color:#fff!important}
