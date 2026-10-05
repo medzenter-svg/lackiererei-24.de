@@ -192,3 +192,16 @@ footer a{color:#fff!important}
   color:#0b5da8!important;
 }
 .services-grid img,.seo-grid img,.leistung-grid img,.service-grid img{border-color:#c8d8e8!important}
+
+
+/* 2026-10-05: global purge of legacy black/red on service pages */
+body,.seo-page,.services-page,.leistung-page{background:#fff!important;color:#102b4e!important}
+[class*="hero"],[class*="intro"]{border-color:#c8d8e8!important}
+[class*="category"],[class*="kicker"],[class*="eyebrow"]{color:#0b5da8!important}
+[class*="card"],[class*="tile"]{border-color:#c8d8e8!important}
+[class*="card"] h2,[class*="card"] h3,[class*="tile"] h2,[class*="tile"] h3{color:#062d67!important}
+[class*="card"] p,[class*="tile"] p{color:#526b85!important}
+[class*="card"] a,[class*="tile"] a{color:#0b5da8!important}
+.back-link,.back-button,.seo-back{background:#fff!important;color:#062d67!important;border-color:#7ea4c8!important}
+.phone-link,.header-phone{background:#062d67!important;color:#fff!important;border-color:#2c78bd!important}
+hr,.divider,[class*="divider"]{border-color:#c8d8e8!important;background:#c8d8e8!important}
