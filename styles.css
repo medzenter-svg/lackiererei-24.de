@@ -1336,3 +1336,14 @@ body{background:#fff}
     background:transparent!important;
   }
 }
+
+
+/* 2026-10-05: force black pixels of legacy logo to blend into navy */
+.nav .brand{background:#062d67!important;isolation:auto!important}
+.nav .brand-logo{
+  background:transparent!important;
+  mix-blend-mode:screen!important;
+  -webkit-mix-blend-mode:screen;
+}
+footer .brand{background:#062d67}
+footer .brand-logo{mix-blend-mode:screen!important;background:transparent!important}
