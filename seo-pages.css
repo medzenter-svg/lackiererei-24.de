@@ -243,3 +243,24 @@ hr,.divider,[class*="divider"]{border-color:#c8d8e8!important;background:#c8d8e8
 .seo-service-card p{color:#526b85!important}
 .seo-service-card span{color:#0b5da8!important}
 .seo-card-photo{border:1px solid #c8d8e8!important}
+
+
+/* 2026-10-05 unified large slogan treatment on all SEO/service pages */
+.seo-hub-head h1,.seo-hero h1,.seo-main>section:first-child h1{
+  color:#062d67!important;
+  font-weight:800!important;
+  letter-spacing:-.045em!important;
+  line-height:.94!important;
+  font-size:clamp(52px,7.2vw,112px)!important;
+  max-width:1400px!important;
+}
+.seo-hub-head,.seo-hero,.seo-main>section:first-child{
+  padding-top:clamp(58px,8vw,118px)!important;
+  padding-bottom:clamp(54px,7vw,104px)!important;
+}
+@media(max-width:700px){
+  .seo-hub-head h1,.seo-hero h1,.seo-main>section:first-child h1{
+    font-size:clamp(42px,13vw,68px)!important;
+    line-height:.96!important;
+  }
+}
