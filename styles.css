@@ -1173,3 +1173,40 @@ footer{border-color:#c4d2e2;color:#52657c}footer>a,footer>div a{color:#173b68}
   .menu-toggle span{color:#fff}
   .hero-shade{background:linear-gradient(90deg,rgba(255,255,255,.97),rgba(255,255,255,.72)),linear-gradient(0deg,rgba(247,249,252,.82),transparent)}
 }
+
+
+/* 2026-10-05: typography/readability pass after desktop visual audit */
+body{font-size:17px}
+.nav-links a{font-size:16px}
+.hero-copy{font-size:20px;line-height:1.65}
+.hero-lead{font-size:18px}
+.language-note{font-size:16px!important}
+.btn{font-size:16px}
+.section-kicker{font-size:14px;font-weight:800}
+.intro-head p,.quality-copy>p,.contact-copy>p,.wheel-service-head>p{font-size:18px}
+.service-card h3{font-size:25px}
+.service-card p,.service-photo p{font-size:17px;line-height:1.65}
+.service-card .num,.service-photo .num{font-size:16px}
+.service-card a{font-size:14px}
+.step h3{font-size:27px}.step p{font-size:17px}
+.workshop-content>p:not(.eyebrow){font-size:18px}
+.workshop-tags span{font-size:14px}
+.wheel-card h3{font-size:26px}.wheel-card>p:last-child{font-size:17px}
+.wheel-label{font-size:14px!important}.wheel-number{font-size:20px}
+.advantage-card small{font-size:14px}.advantage-card p{font-size:18px;line-height:1.6}
+.partner-card span{font-size:14px}
+.site-location-copy>p:not(.eyebrow){font-size:19px}
+.contact-actions small{font-size:18px!important}
+.contact-actions strong{font-size:20px}
+.callback-form label span{font-size:15px}
+footer{font-size:15px}
+.pickup-service small{font-size:13px}.pickup-service strong{font-size:17px}
+.reviews-head>p{font-size:20px}.review-card blockquote{font-size:20px}
+@media(max-width:900px){
+  body{font-size:16px}
+  .nav-links a{font-size:16px}
+  .hero-copy{font-size:18px}
+  .service-card p,.service-photo p{font-size:17px}
+  .advantage-card p{font-size:17px}
+  .contact-actions strong{font-size:18px}
+}
