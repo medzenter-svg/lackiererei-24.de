@@ -1288,3 +1288,38 @@ footer{font-size:15px}
   .hero{padding-top:166px}
 }
 .nav::after{background:#0b5da8!important}
+
+
+/* 2026-10-05: remove remaining black/gray surfaces; preserve original logo artwork */
+:root{--navy:#062d67;--navy2:#0b4f97;--ice:#f4f8fc}
+body{background:#fff}
+.hero-copy{
+  background:transparent!important;
+  color:#062d67!important;
+  text-shadow:none!important;
+}
+.hero-copy p,.hero-copy span{color:#062d67!important}
+.pickup-service{
+  background:#062d67!important;
+  border-color:#2d78bd!important;
+  color:#fff!important;
+}
+.pickup-service small{color:#75c0ff!important}
+.pickup-service strong,.pickup-service>b{color:#fff!important}
+.service-card,.wheel-card,.advantage-card,.partner-card,.fleet-package,.recovery-steps,.review-card{
+  background:#fff!important;
+  color:#062d67;
+}
+.workshop-showcase,.fleet-service,.vehicle-recovery{background:#f4f8fc!important}
+.workshop-float,.back-to-top{background:#062d67!important;color:#fff!important}
+.callback-form input,.callback-form button{background:#fff!important}
+.service-image{background:#f4f8fc!important}
+.nav .brand{background:#062d67!important}
+.nav .brand-logo{background:#062d67!important}
+@media(min-width:901px){
+  .nav{background:#062d67!important}
+  .nav-links a{color:#fff!important}
+  .language-switch{background:#062d67!important;border-color:#6e9dcc}
+  .language-switch a{color:#dbeaff!important}
+  .language-switch a.active{background:#fff!important;color:#062d67!important}
+}
