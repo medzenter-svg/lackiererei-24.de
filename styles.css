@@ -1108,3 +1108,68 @@ footer{font-size:14px}
 .callback-form button{grid-column:1/-1;height:52px;display:flex;align-items:center;justify-content:center;gap:18px;border:1px solid #ff3138;background:#080c11;color:#fff;font:800 15px Arial;cursor:pointer}
 .callback-form button:hover{background:#111821}
 @media(max-width:520px){.callback-form{grid-template-columns:1fr}.callback-form label,.callback-form button,.callback-title{grid-column:1}}
+
+
+/* 2026-10-05: client-approved white + deep navy redesign */
+:root{
+  --bg:#f7f9fc;
+  --panel:#ffffff;
+  --line:#cbd7e6;
+  --text:#071f41;
+  --muted:#52657c;
+  --blue:#073b78;
+  --blue2:#0b5da8;
+}
+body{background:var(--bg);color:var(--text)}
+.nav{background:rgba(255,255,255,.96);border-bottom:1px solid #c8d5e5;box-shadow:0 8px 28px rgba(7,31,65,.08)}
+.nav-links a{color:#173b68}.nav-links a:hover{color:#0b5da8}
+.brand small{color:#61758d}
+.language-switch{background:#fff;border-color:#c7d5e6;box-shadow:0 10px 28px rgba(7,31,65,.14)}
+.language-switch a{color:#52657c!important}
+.language-switch a:hover,.language-switch a.active{background:#073b78!important;color:#fff!important;border-left-color:#0b5da8!important}
+.hero-shade{background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.91) 35%,rgba(255,255,255,.35) 66%,rgba(255,255,255,.08)),linear-gradient(0deg,rgba(247,249,252,.55),transparent 42%)}
+.eyebrow{color:#173b68}.hero-copy{color:#405872}
+h1 em,h2 em{color:#0b5da8;-webkit-text-stroke:0}
+h1 em{color:#0b5da8;text-shadow:none}
+.hero-call,.language-note{background:rgba(255,255,255,.86)!important;color:#173b68;border-color:#0b5da8!important}
+.hero-call small{color:#0b5da8}
+.hero-call strong,.hero-lead strong{color:#071f41}.hero-lead span{color:#0b5da8}
+.btn{border-color:#8da7c4;color:#071f41;background:#fff}
+.btn.primary{background:#073b78;border-color:#073b78;color:#fff}
+.hero-actions .btn.primary b::before,.red-arrow::before,.workshop-float b::before{background:#2f80d0}
+.hero-actions .btn.primary b::after,.red-arrow::after,.workshop-float b::after{border-color:#2f80d0}
+.trust-row{color:#52657c}.trust-row b{color:#071f41}.trust-row i{background:#b7c7da}
+.section-kicker{color:#0b5da8;border-color:#cbd7e6}
+.intro-head h2 span,.wheel-service-head h2 span{color:#59718d}
+.intro-head p,.quality-copy>p,.contact-copy>p,.wheel-service-head>p{color:#52657c}
+.services-grid,.wheel-grid{border-color:#b8c9dc;background:#b8c9dc}
+.service-card,.wheel-card{background:#fff;border-color:#b8c9dc;color:#071f41}
+.service-card:hover,.wheel-card:hover{background:#edf4fb}
+.service-card.featured,.service-photo.featured,.wheel-card-main{background:linear-gradient(145deg,#062d5d,#0b5da8)}
+.service-card p,.wheel-card>p:last-child{color:#52657c}
+.service-icon,.wheel-number,.wheel-label{color:#0b5da8!important}
+.service-photo .num{color:#0b5da8}
+.quality{background:linear-gradient(115deg,rgba(5,28,58,.92),rgba(7,59,120,.68)),url('assets/hero-workshop.webp') center/cover fixed;color:#fff}
+.quality h2,.quality .eyebrow{color:#fff}.quality-copy{background:rgba(5,28,58,.7)}
+.steps{background:#c4d2e2;border-color:#c4d2e2}.step{background:#fff}.step b{color:#0b5da8}.step p{color:#52657c}
+.workshop-showcase{background:#fff;border-color:#c4d2e2}.workshop-content>p:not(.eyebrow){color:#52657c}
+.workshop-tags span{border-color:#0b5da8;color:#173b68;box-shadow:none}
+.curb-callout{border-color:#0b5da8;background:linear-gradient(120deg,#fff,#eaf3fc)}.curb-callout small{color:#0b5da8}.curb-callout>p{color:#52657c}
+.fleet-service,.vehicle-recovery{background:#f2f6fb;border-color:#c4d2e2}.fleet-intro h2 em,.recovery-copy h2 em,.fleet-slogan strong{color:#0b5da8}.fleet-intro>p:not(.eyebrow),.recovery-copy>p:not(.eyebrow){color:#52657c}.fleet-slogan{border-color:#0b5da8;color:#071f41}
+.fleet-package,.recovery-steps{background:#fff;border-color:#b8c9dc;box-shadow:0 18px 55px rgba(7,31,65,.08)}.fleet-package>small,.fleet-package li span,.recovery-steps span{color:#0b5da8}.fleet-package li,.recovery-steps>div:not(.recovery-actions){border-color:#d2ddea;color:#405872}.recovery-steps strong{color:#071f41}.recovery-steps small{color:#52657c}.recovery-mark{color:rgba(11,93,168,.05)}
+.review-card{background:#fff;border-color:#c4d2e2;border-top-color:#0b5da8}.review-stars,.review-card>p,.reviews-head h2 em{color:#0b5da8;text-shadow:none}.review-card blockquote{color:#071f41}.reviews-head>p,.reviews-slogan{color:#52657c}.reviews-slogan strong{color:#071f41}
+.contact-card{background:linear-gradient(135deg,#062d5d,#0b5da8);color:#fff}.contact h2,.contact-copy>p{color:#fff}.contact-actions small{color:#67b7ff!important;text-shadow:none}.callback-form label span{color:#8dcbff}.callback-form input,.callback-form button{background:#fff;color:#071f41;border-color:#b9d4ef}.callback-form input:focus{border-color:#67b7ff;box-shadow:0 0 0 1px #67b7ff}
+footer{border-color:#c4d2e2;color:#52657c}footer>a,footer>div a{color:#173b68}
+.back-to-top{background:#fff;border-color:#7895b5;color:#071f41}.back-to-top b{color:#0b5da8}.back-to-top:hover{border-color:#0b5da8;color:#0b5da8}
+.workshop-float{background:#073b78;border-color:#0b5da8;color:#fff;box-shadow:0 10px 28px rgba(7,31,65,.22)}
+.legal-page{background:radial-gradient(circle at 85% 5%,rgba(11,93,168,.09),transparent 30%),#f7f9fc}.legal-nav{background:#fff;border-color:#c4d2e2}.legal-back{color:#173b68}.legal-card{border-color:#c4d2e2}.legal-card p{color:#52657c}.legal-card strong{color:#071f41}.legal-card a{color:#0b5da8}
+.map-location-pulse::before,.map-location-pulse::after{border-color:rgba(11,93,168,.9)}.map-location-pulse i{background:#0b5da8;box-shadow:0 5px 18px rgba(11,93,168,.42)}
+.special-projects > .section-kicker{color:#0b5da8;text-shadow:none}
+.all-services-link .btn{border-color:#0b5da8!important;box-shadow:none}
+@media(max-width:900px){
+  .nav{background:rgba(255,255,255,.97)}
+  .menu-toggle{background:#073b78;border-color:#073b78;color:#fff}
+  .nav-links{background:#fff}
+  .menu-toggle span{color:#fff}
+  .hero-shade{background:linear-gradient(90deg,rgba(255,255,255,.97),rgba(255,255,255,.72)),linear-gradient(0deg,rgba(247,249,252,.82),transparent)}
+}
