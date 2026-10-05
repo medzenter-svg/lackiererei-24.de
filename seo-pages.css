@@ -264,3 +264,9 @@ hr,.divider,[class*="divider"]{border-color:#c8d8e8!important;background:#c8d8e8
     line-height:.96!important;
   }
 }
+
+
+/* 2026-10-05 brand-color slogan: use our primary navy consistently */
+:root{--brand-navy:#062d67;--brand-blue:#0b5da8;--brand-ice:#f4f8fc}
+.seo-hub-head h1,.seo-hero h1,.seo-main>section:first-child h1{color:var(--brand-navy)!important}
+.seo-hub-head .seo-kicker,.seo-hero .seo-kicker,.seo-main>section:first-child .seo-kicker{color:var(--brand-blue)!important}
