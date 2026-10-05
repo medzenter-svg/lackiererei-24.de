@@ -76,3 +76,13 @@
   background:#062d67!important;border-color:#2f80d0!important;
   box-shadow:0 8px 22px rgba(6,45,103,.20)!important;
 }
+
+
+/* 2026-10-05 remove final legacy red states from floating controls */
+.workshop-float:hover{background:#0b5da8!important;box-shadow:0 12px 28px rgba(6,45,103,.24)!important}
+.workshop-float b::before{background:#55a9ef!important}
+.workshop-float b::after{border-top-color:#55a9ef!important;border-right-color:#55a9ef!important}
+.service-back{background:#062d67!important;border-color:#2f80d0!important;color:#fff!important}
+.service-back b::before{background:#55a9ef!important}
+.service-back b::after{border-left-color:#55a9ef!important;border-bottom-color:#55a9ef!important}
+.service-back:hover{background:#0b5da8!important;color:#fff!important;border-color:#55a9ef!important}
