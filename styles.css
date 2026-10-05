@@ -1210,3 +1210,18 @@ footer{font-size:15px}
   .advantage-card p{font-size:17px}
   .contact-actions strong{font-size:18px}
 }
+
+
+/* 2026-10-05: dark-section contrast correction */
+.quality,.quality h2,.quality h3,.quality p,.quality strong,.quality-copy,.quality-copy p,.quality-copy li{color:#fff}
+.quality .section-kicker,.quality .eyebrow,.quality-copy li:before{color:#67b7ff}
+.service-card.featured,.service-card.featured h3,.service-card.featured p,.service-card.featured a,
+.service-photo.featured,.service-photo.featured h3,.service-photo.featured p,.service-photo.featured a,
+.wheel-card-main,.wheel-card-main h3,.wheel-card-main p{color:#fff}
+.service-card.featured .service-icon,.service-card.featured .num,.wheel-card-main .wheel-number,.wheel-card-main .wheel-label{color:#8dcbff!important}
+.contact-card,.contact-card h2,.contact-card h3,.contact-card p,.contact-card strong,.contact-card a{color:#fff}
+.contact-actions small{color:#8dcbff!important}
+.workshop-float,.workshop-float span{color:#fff}
+@media(max-width:900px){
+  .nav-links a{color:#173b68}
+}
