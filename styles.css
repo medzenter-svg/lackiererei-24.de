@@ -1368,3 +1368,52 @@ footer a,footer>div a{color:#fff!important}
  .nav .brand{width:520px;height:122px;flex-basis:520px}
  .nav .brand-logo{object-fit:contain;object-position:left center}
 }
+
+
+/* 2026-10-05: repair header after transparent-logo asset */
+.nav .brand-logo,footer .brand-logo{
+  mix-blend-mode:normal!important;
+  filter:none!important;
+  opacity:1!important;
+}
+@media(min-width:901px){
+  .nav{
+    display:flex!important;
+    height:150px!important;
+    min-height:150px!important;
+    padding:0 max(28px,calc((100vw - var(--max))/2))!important;
+    gap:28px!important;
+  }
+  .nav .brand{
+    display:flex!important;
+    width:500px!important;
+    height:120px!important;
+    flex:0 0 500px!important;
+    align-items:center!important;
+    justify-content:flex-start!important;
+    background:transparent!important;
+  }
+  .nav .brand-logo{
+    display:block!important;
+    width:100%!important;
+    height:100%!important;
+    object-fit:contain!important;
+    object-position:left center!important;
+  }
+  .nav-links{
+    display:flex!important;
+    flex:1 1 auto!important;
+    justify-content:flex-end!important;
+    align-items:center!important;
+    gap:34px!important;
+    margin:0!important;
+    white-space:nowrap!important;
+  }
+  .nav-links a{font-size:16px!important;line-height:1.15!important}
+  .language-switch{
+    display:flex!important;
+    flex:0 0 auto!important;
+    margin-left:4px!important;
+  }
+  .hero{padding-top:150px!important}
+}
