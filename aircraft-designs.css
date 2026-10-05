@@ -17,3 +17,12 @@
 .model-heading .seo-kicker{margin-bottom:12px}
 .model-heading h2{margin:0;font-size:clamp(2.2rem,5vw,4.8rem);letter-spacing:-.04em}
 .model-collection .design-gallery{margin-bottom:0}
+
+
+/* 2026-10-05 unified white/navy aircraft section */
+.aircraft-designs,.aircraft-section,.aircraft-grid{background:#fff!important;color:#102b4e!important}
+.aircraft-designs h2,.aircraft-designs h3,.aircraft-section h2,.aircraft-section h3{color:#062d67!important}
+.aircraft-designs p,.aircraft-section p{color:#526b85!important}
+.aircraft-designs .eyebrow,.aircraft-section .eyebrow,.aircraft-designs .label{color:#0b5da8!important}
+.aircraft-designs .card,.aircraft-card{background:#f7faff!important;border-color:#c8d8e8!important}
+.aircraft-designs .btn,.aircraft-section .btn{background:#062d67!important;color:#fff!important;border-color:#0b5da8!important}
