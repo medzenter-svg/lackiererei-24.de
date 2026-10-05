@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" preserveAspectRatio="xMidYMid meet">
+  <defs>
+    <filter id="whiteOnly" color-interpolation-filters="sRGB">
+      <feColorMatrix type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 12 -5"/>
+    </filter>
+    <mask id="logoMask" maskUnits="userSpaceOnUse" x="0" y="0" width="1200" height="400">
+      <rect width="1200" height="400" fill="black"/>
+      <image href="lackiererei24-logo-black.webp" x="0" y="0" width="1200" height="400" preserveAspectRatio="xMidYMid meet" filter="url(#whiteOnly)"/>
+    </mask>
+  </defs>
+  <rect width="1200" height="400" fill="white" mask="url(#logoMask)"/>
+</svg>
