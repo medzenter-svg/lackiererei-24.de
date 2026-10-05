@@ -205,3 +205,25 @@ body,.seo-page,.services-page,.leistung-page{background:#fff!important;color:#10
 .back-link,.back-button,.seo-back{background:#fff!important;color:#062d67!important;border-color:#7ea4c8!important}
 .phone-link,.header-phone{background:#062d67!important;color:#fff!important;border-color:#2c78bd!important}
 hr,.divider,[class*="divider"]{border-color:#c8d8e8!important;background:#c8d8e8!important}
+
+
+/* 2026-10-05 RU/DE SEO pages: final navy/white component normalization */
+.seo-nav{background:#062d67!important;border-bottom:1px solid #2c78bd!important}
+.seo-nav .seo-brand{background:transparent!important}
+.seo-nav .seo-brand img{mix-blend-mode:screen!important;background:transparent!important}
+.seo-nav nav>a:not(.seo-phone){color:#fff!important}
+.seo-phone{background:#0b376f!important;color:#fff!important;border:1px solid #4b82b7!important}
+.breadcrumbs,.breadcrumbs a{color:#526b85!important}
+.breadcrumbs span{color:#8aa4bd!important}
+.seo-kicker{color:#0b5da8!important}
+.seo-actions .primary,.seo-cta .primary{background:#062d67!important;color:#fff!important;border-color:#0b5da8!important}
+.seo-actions .ghost{background:#fff!important;color:#062d67!important;border-color:#8aaac8!important}
+.red-arrow{border-color:#55a9ef!important}
+.seo-content article,.seo-content aside,.seo-faq details{background:#fff!important;color:#102b4e!important;border-color:#c8d8e8!important}
+.seo-content h2,.seo-content h3,.seo-faq h2,.seo-cta h2{color:#062d67!important}
+.seo-content p,.seo-content li,.seo-faq p,.seo-cta p{color:#526b85!important}
+.seo-content aside a{color:#0b5da8!important}
+.seo-faq summary{color:#062d67!important}
+.seo-cta{background:#f4f8fc!important;border-color:#c8d8e8!important}
+.seo-footer{background:#062d67!important;color:#dceaff!important;border-top:1px solid #2c78bd!important}
+.seo-footer a{color:#fff!important}
