@@ -227,3 +227,19 @@ hr,.divider,[class*="divider"]{border-color:#c8d8e8!important;background:#c8d8e8
 .seo-cta{background:#f4f8fc!important;border-color:#c8d8e8!important}
 .seo-footer{background:#062d67!important;color:#dceaff!important;border-top:1px solid #2c78bd!important}
 .seo-footer a{color:#fff!important}
+
+
+/* 2026-10-05 exact selectors for /leistungen/index.html hub */
+.seo-hub-head{background:#f7faff!important;color:#102b4e!important;border-bottom:1px solid #c8d8e8!important}
+.seo-hub-head h1{color:#062d67!important}
+.seo-hub-head>p:last-child{color:#526b85!important}
+.seo-group{background:#fff!important;border-top:1px solid #c8d8e8!important}
+.seo-group>.seo-kicker{color:#0b5da8!important}
+.seo-hub-grid{background:#d6e1ec!important;gap:1px!important}
+.seo-service-card{background:#fff!important;color:#102b4e!important;border:0!important}
+.seo-service-card:hover{background:#f4f8fc!important}
+.seo-service-card small{color:#0b5da8!important}
+.seo-service-card h2{color:#062d67!important}
+.seo-service-card p{color:#526b85!important}
+.seo-service-card span{color:#0b5da8!important}
+.seo-card-photo{border:1px solid #c8d8e8!important}
