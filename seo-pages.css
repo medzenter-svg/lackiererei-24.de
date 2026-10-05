@@ -162,3 +162,33 @@ section{border-color:var(--seo-line)!important}
 .btn,.button,.cta{background:var(--seo-navy)!important;color:#fff!important;border-color:var(--seo-blue)!important}
 footer{background:var(--seo-navy)!important;color:#dceaff!important;border-color:#2c78bd!important}
 footer a{color:#fff!important}
+
+
+/* 2026-10-05: visible 55-services grid cleanup from screenshot audit */
+.services-grid,.seo-grid,.leistung-grid,.service-grid{
+  background:#d6e1ec!important;
+  gap:1px!important;
+}
+.services-grid .service-card,.seo-grid .seo-card,.leistung-grid .leistung-card,.service-grid .service-card{
+  background:#fff!important;
+  color:#102b4e!important;
+  border-color:#c8d8e8!important;
+}
+.services-grid .service-card h2,.services-grid .service-card h3,
+.seo-grid .seo-card h2,.seo-grid .seo-card h3,
+.leistung-grid .leistung-card h2,.leistung-grid .leistung-card h3,
+.service-grid .service-card h2,.service-grid .service-card h3{
+  color:#062d67!important;
+}
+.services-grid .service-card p,.seo-grid .seo-card p,.leistung-grid .leistung-card p,.service-grid .service-card p{
+  color:#526b85!important;
+}
+.services-grid .service-card a,.seo-grid .seo-card a,.leistung-grid .leistung-card a,.service-grid .service-card a,
+.more-link,.learn-more{
+  color:#0b5da8!important;
+}
+.services-grid .service-card small,.seo-grid .seo-card small,.leistung-grid .leistung-card small,.service-grid .service-card small,
+.service-category,.card-category{
+  color:#0b5da8!important;
+}
+.services-grid img,.seo-grid img,.leistung-grid img,.service-grid img{border-color:#c8d8e8!important}
