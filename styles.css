@@ -1417,3 +1417,93 @@ footer a,footer>div a{color:#fff!important}
   }
   .hero{padding-top:150px!important}
 }
+
+/* 2026-10-07: final compact responsive layout audit */
+html{scroll-padding-top:92px}
+.btn,.menu-toggle,.language-switch a,.workshop-float,.whatsapp-float{isolation:isolate}
+.section{padding-top:72px;padding-bottom:72px}
+.intro-head{margin:32px 0 44px;gap:54px}
+.workshop-showcase{margin-bottom:72px;min-height:560px}
+.workshop-image{min-height:500px}
+.workshop-content{padding:48px 44px}
+.advantages-head,.wheel-service-head{margin-top:32px;margin-bottom:44px;gap:54px}
+.partners{gap:54px;padding-top:18px}
+.contact-card{padding:56px;gap:58px}
+
+@media(min-width:901px){
+  .nav{
+    height:112px!important;
+    min-height:112px!important;
+    gap:22px!important;
+  }
+  .nav .brand{
+    width:350px!important;
+    height:78px!important;
+    flex:0 0 350px!important;
+    overflow:visible!important;
+  }
+  .nav .brand-logo{
+    width:100%!important;
+    height:100%!important;
+    object-fit:contain!important;
+    object-position:left center!important;
+    background:transparent!important;
+  }
+  .nav-links{gap:22px!important;min-width:0!important}
+  .nav-links a{font-size:14px!important}
+  .nav-links .menu-phone{padding:13px 15px!important;border:1px solid #5685b7!important}
+  .language-switch{margin-left:0!important}
+  .language-switch a{width:38px;height:36px}
+  .hero{padding-top:112px!important;min-height:780px!important}
+  .hero-content{margin-top:22px!important}
+}
+
+@media(max-width:900px){
+  html{scroll-padding-top:82px}
+  .nav{height:82px!important;min-height:82px!important;padding:0 12px!important}
+  .nav .brand{top:7px!important;left:12px!important;width:min(43vw,220px)!important;height:62px!important}
+  .nav .brand-logo{width:100%!important;height:100%!important;object-fit:contain!important;object-position:left center!important;background:transparent!important}
+  .menu-toggle{top:20px!important;right:104px!important;min-width:62px!important;height:40px!important;padding:0 9px!important}
+  .language-switch{top:20px!important;right:10px!important;height:40px!important}
+  .language-switch a{width:32px!important;height:32px!important}
+  .nav-links{top:82px!important;padding:14px 18px 18px!important;gap:0!important;border-bottom:1px solid #c8d5e5;box-shadow:0 14px 28px rgba(7,31,65,.14)}
+  .nav-links a{width:100%;min-height:48px;display:flex;align-items:center;padding:0 12px;border-bottom:1px solid #dbe4ef}
+  .nav-links .menu-phone{margin-top:10px!important;justify-content:center;border:1px solid #0b5da8!important}
+  .hero{padding-top:94px!important;padding-bottom:42px!important;min-height:0!important}
+  .hero-content{width:calc(100% - 32px)!important}
+  .hero-copy{margin:20px 0!important}
+  .pickup-service{margin-bottom:16px!important}
+  .trust-row{margin-top:28px!important}
+  .section{width:calc(100% - 32px);padding-top:52px;padding-bottom:52px}
+  .intro-head,.advantages-head,.wheel-service-head{margin:24px 0 32px;gap:20px}
+  .service-card.service-photo{padding-bottom:72px!important}
+  .workshop-showcase{margin:0 16px 52px!important}
+  .workshop-image{min-height:300px!important}
+  .workshop-content{padding:34px 22px!important}
+  .contact-card{padding:34px 22px!important;gap:30px!important}
+  .site-location-copy{padding:34px 22px!important}
+  .site-location-map,.site-location-map iframe{min-height:330px!important}
+  footer{margin:0!important;padding:34px 20px 96px!important;gap:18px!important;justify-items:center!important;text-align:center!important}
+  footer>div{justify-content:center;flex-wrap:wrap}
+  footer .brand-logo{width:min(78vw,300px)!important;height:auto!important}
+  .workshop-float{left:12px!important;right:84px!important;bottom:12px!important;min-width:0!important;max-width:none!important;width:auto!important;min-height:48px!important}
+  .whatsapp-float{right:12px!important;bottom:12px!important;width:56px!important;height:56px!important}
+  .back-to-top{margin-bottom:82px!important}
+}
+
+@media(max-width:520px){
+  .nav .brand{width:40vw!important;max-width:166px!important}
+  .menu-toggle{right:96px!important;min-width:58px!important;font-size:10px!important}
+  .language-switch{right:8px!important}
+  .language-switch a{width:29px!important;font-size:10px!important}
+  .hero h1{font-size:clamp(36px,11vw,50px)!important}
+  .language-note{font-size:10px!important;padding:8px 9px!important}
+  .hero-lead{font-size:15px!important}
+  .hero-copy{font-size:17px!important;line-height:1.55!important}
+  .hero-actions{gap:10px!important}
+  .btn{min-height:50px!important;padding:0 18px!important}
+  .pickup-service strong{font-size:14px!important}
+  .trust-row{gap:10px!important;justify-content:space-between}
+  .trust-row b{font-size:15px!important}
+  .workshop-float{font-size:11px!important;gap:8px!important;padding:0 10px!important}
+}
