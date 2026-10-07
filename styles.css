@@ -1507,3 +1507,29 @@ html{scroll-padding-top:92px}
   .trust-row b{font-size:15px!important}
   .workshop-float{font-size:11px!important;gap:8px!important;padding:0 10px!important}
 }
+
+/* 2026-10-07: restore the featured service card and remove excess card height */
+.service-card.service-photo{
+  padding:0 26px 60px!important;
+}
+.service-card.service-photo .service-image{
+  margin:0 -26px 20px!important;
+}
+.service-card.service-photo h3{margin-bottom:12px!important}
+.service-card.service-photo p{margin-top:0!important;margin-bottom:10px!important}
+.service-card.service-photo>a{bottom:22px!important}
+.service-card.featured,.service-photo.featured,.wheel-card-main{
+  background:linear-gradient(145deg,#062d67,#0b5da8)!important;
+  color:#fff!important;
+}
+.service-card.featured h3,.service-card.featured p,.service-card.featured a,
+.service-photo.featured h3,.service-photo.featured p,.service-photo.featured a{
+  color:#fff!important;
+}
+.service-card.featured .num,.service-photo.featured .num{
+  color:#9dd3ff!important;
+}
+@media(max-width:900px){
+  .service-card.service-photo{padding:0 20px 58px!important}
+  .service-card.service-photo .service-image{margin:0 -20px 18px!important}
+}
