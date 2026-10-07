@@ -1604,6 +1604,7 @@ html{scroll-padding-top:92px}
   .language-switch{
     position:static!important;
     align-self:center!important;
+    box-sizing:border-box!important;
     height:52px!important;
     margin:0!important;
     padding:3px!important;
