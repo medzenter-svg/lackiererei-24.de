@@ -1690,7 +1690,7 @@ html{scroll-padding-top:92px}
   justify-content:flex-start!important;
   overflow:hidden!important;
   border:1px solid #d7e2ee!important;
-  border-top:3px solid #d61f2c!important;
+  border-top:3px solid #0b5da8!important;
   border-radius:4px!important;
   background:#fff!important;
   box-shadow:0 12px 30px rgba(6,45,103,.08)!important;
@@ -1699,7 +1699,7 @@ html{scroll-padding-top:92px}
 .advantage-card:hover,
 .advantage-card.featured:hover{
   border-color:#a9bfd6!important;
-  border-top-color:#d61f2c!important;
+  border-top-color:#0b5da8!important;
   background:#fff!important;
   box-shadow:0 16px 34px rgba(6,45,103,.13)!important;
   transform:translateY(-3px)!important;
