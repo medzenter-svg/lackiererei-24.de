@@ -1569,12 +1569,28 @@ html{scroll-padding-top:92px}
 }
 
 /* 2026-10-07: final header geometry — one axis, equal controls, no stray rules */
-.nav{border-bottom:0!important}
-.nav::after{content:none!important;display:none!important}
-.nav-links .menu-services .red-arrow{display:none!important}
+.nav{
+  border-bottom:0!important;
+}
+.nav::after{
+  content:none!important;
+  display:none!important;
+}
+.nav-links .menu-services .red-arrow{
+  display:none!important;
+}
 @media(min-width:901px){
-  .nav{display:flex!important;align-items:center!important;gap:22px!important}
-  .nav .brand{position:static!important;align-self:center!important;margin:0!important;transform:none!important}
+  .nav{
+    display:flex!important;
+    align-items:center!important;
+    gap:22px!important;
+  }
+  .nav .brand{
+    position:static!important;
+    align-self:center!important;
+    margin:0!important;
+    transform:none!important;
+  }
   .nav-links{
     height:52px!important;
     display:flex!important;
@@ -1592,8 +1608,16 @@ html{scroll-padding-top:92px}
     padding:0!important;
     line-height:1!important;
   }
-  .nav-links .menu-services{min-width:142px!important;border:0!important;background:transparent!important}
-  .nav-links .menu-services:hover{border:0!important;background:transparent!important;transform:none!important}
+  .nav-links .menu-services{
+    min-width:142px!important;
+    border:0!important;
+    background:transparent!important;
+  }
+  .nav-links .menu-services:hover{
+    border:0!important;
+    background:transparent!important;
+    transform:none!important;
+  }
   .nav-links .menu-phone{
     height:52px!important;
     min-height:52px!important;
@@ -1612,9 +1636,31 @@ html{scroll-padding-top:92px}
     padding:3px!important;
     gap:2px!important;
   }
-  .language-switch a{box-sizing:border-box!important;width:42px!important;height:44px!important}
+  .language-switch a{
+    box-sizing:border-box!important;
+    width:42px!important;
+    height:44px!important;
+  }
 }
 @media(max-width:900px){
   .nav{align-items:center!important}
   .menu-toggle,.language-switch{margin-top:0!important;margin-bottom:0!important}
+}
+
+/* 2026-10-08: separate the back-to-top control from the navy footer */
+.back-to-top{
+  margin:22px auto 96px!important;
+  background:#071f41!important;
+  border:1px solid #ff3138!important;
+  color:#fff!important;
+  box-shadow:0 10px 24px rgba(7,31,65,.22)!important;
+}
+.back-to-top b{color:#fff!important}
+.back-to-top:hover{
+  background:#ff3138!important;
+  border-color:#ff3138!important;
+  color:#fff!important;
+}
+@media(max-width:900px){
+  .back-to-top{margin:18px auto 90px!important}
 }
