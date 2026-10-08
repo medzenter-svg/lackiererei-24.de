@@ -14,7 +14,8 @@ if(lang==='ru'){
   setMany('.nav-links a',['Все 55 услуг','Почему мы','Как всё проходит','Контакты']);
   const menuServices=document.querySelector('.menu-services');if(menuServices)menuServices.innerHTML='<span>Все 55 услуг</span><b class="red-arrow" aria-hidden="true"></b>';
   set('.hero .eyebrow','<span></span> Кузовной ремонт и покраска · Ландсхут и Мюнхен');
-  set('.language-note','<span>Мы говорим по-русски</span>');
+  const languageNote=document.querySelector('.language-note');
+  if(languageNote){languageNote.hidden=false;languageNote.innerHTML='<span>Мы говорим по-русски</span>';}
   set('.hero-call small','Позвонить сейчас');
   set('h1','Повреждения исчезают.<br><em>Качество остаётся.</em>');
   set('.hero-lead','<strong>Покраска, кузовной ремонт и автосервис</strong><span>Всё в одном месте.</span>');
