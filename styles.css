@@ -1664,3 +1664,12 @@ html{scroll-padding-top:92px}
 @media(max-width:900px){
   .back-to-top{margin:18px auto 90px!important}
 }
+
+/* 2026-10-08: cleaner hero image without the awkward crouched crop */
+.hero-bg{
+  background-image:url('assets/kfz-werkstatt-cayenne-v6.webp')!important;
+  background-position:center center!important;
+}
+@media(max-width:900px){
+  .hero-bg{background-position:58% center!important}
+}
