@@ -1665,11 +1665,11 @@ html{scroll-padding-top:92px}
   .back-to-top{margin:18px auto 90px!important}
 }
 
-/* 2026-10-08: cleaner hero image without the awkward crouched crop */
+/* 2026-10-08: original hero composition with anatomically corrected hands */
 .hero-bg{
-  background-image:url('assets/kfz-werkstatt-cayenne-v6.webp')!important;
+  background-image:url('assets/hero-workshop-hands-fixed.webp')!important;
   background-position:center center!important;
 }
 @media(max-width:900px){
-  .hero-bg{background-position:58% center!important}
+  .hero-bg{background-position:64% center!important}
 }
