@@ -1667,7 +1667,7 @@ html{scroll-padding-top:92px}
 
 /* 2026-10-08: original hero composition with anatomically corrected hands */
 .hero-bg{
-  background-image:url('assets/hero-workshop-hands-fixed.webp')!important;
+  background-image:url('assets/hero-workshop-final.webp')!important;
   background-position:center center!important;
 }
 @media(max-width:900px){
