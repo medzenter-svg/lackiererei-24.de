@@ -1673,3 +1673,89 @@ html{scroll-padding-top:92px}
 @media(max-width:900px){
   .hero-bg{background-position:64% center!important}
 }
+
+/* 2026-10-08: compact, symmetrical workshop-service cards */
+.advantages-grid{
+  display:grid!important;
+  grid-template-columns:repeat(3,minmax(0,1fr))!important;
+  gap:16px!important;
+  border:0!important;
+  background:transparent!important;
+}
+.advantage-card,
+.advantage-card.pickup-featured{
+  box-sizing:border-box!important;
+  min-height:350px!important;
+  padding:0 28px 28px!important;
+  justify-content:flex-start!important;
+  overflow:hidden!important;
+  border:1px solid #d7e2ee!important;
+  border-top:3px solid #d61f2c!important;
+  border-radius:4px!important;
+  background:#fff!important;
+  box-shadow:0 12px 30px rgba(6,45,103,.08)!important;
+  transform:none!important;
+}
+.advantage-card:hover,
+.advantage-card.featured:hover{
+  border-color:#a9bfd6!important;
+  border-top-color:#d61f2c!important;
+  background:#fff!important;
+  box-shadow:0 16px 34px rgba(6,45,103,.13)!important;
+  transform:translateY(-3px)!important;
+}
+.advantage-icon,
+.pickup-handover-photo{
+  box-sizing:border-box!important;
+  width:calc(100% + 56px)!important;
+  height:176px!important;
+  min-height:176px!important;
+  margin:0 -28px 24px!important;
+  border:0!important;
+  border-bottom:1px solid #d7e2ee!important;
+  background:#f4f8fc!important;
+}
+.advantage-icon{
+  color:#0b5da8!important;
+  font-size:34px!important;
+}
+.pickup-handover-photo{
+  display:block!important;
+  object-fit:cover!important;
+  object-position:center!important;
+}
+.advantage-card small,
+.advantage-card.featured small{
+  min-height:18px!important;
+  margin:0 0 8px!important;
+  color:#d61f2c!important;
+  font-size:12px!important;
+  font-weight:800!important;
+  line-height:1.35!important;
+  letter-spacing:1.25px!important;
+}
+.advantage-card h3{
+  margin:0 0 12px!important;
+  color:#062d67!important;
+  font-size:24px!important;
+  line-height:1.18!important;
+}
+.advantage-card p,
+.advantage-card.featured p{
+  margin:0 auto!important;
+  color:#53657a!important;
+  font-size:16px!important;
+  line-height:1.55!important;
+}
+@media(max-width:900px){
+  .advantages-grid{grid-template-columns:1fr!important;gap:14px!important}
+  .advantage-card,.advantage-card.pickup-featured{min-height:0!important;padding:0 22px 24px!important}
+  .advantage-icon,.pickup-handover-photo{
+    width:calc(100% + 44px)!important;
+    height:150px!important;
+    min-height:150px!important;
+    margin:0 -22px 20px!important;
+  }
+  .advantage-card h3{font-size:22px!important}
+  .advantage-card p,.advantage-card.featured p{font-size:16px!important}
+}
