@@ -1705,6 +1705,7 @@ html{scroll-padding-top:92px}
   transform:translateY(-3px)!important;
 }
 .advantage-icon,
+.advantage-photo,
 .pickup-handover-photo{
   box-sizing:border-box!important;
   width:calc(100% + 56px)!important;
@@ -1720,6 +1721,11 @@ html{scroll-padding-top:92px}
   font-size:34px!important;
 }
 .pickup-handover-photo{
+  display:block!important;
+  object-fit:cover!important;
+  object-position:center!important;
+}
+.advantage-photo{
   display:block!important;
   object-fit:cover!important;
   object-position:center!important;
@@ -1750,7 +1756,7 @@ html{scroll-padding-top:92px}
 @media(max-width:900px){
   .advantages-grid{grid-template-columns:1fr!important;gap:14px!important}
   .advantage-card,.advantage-card.pickup-featured{min-height:0!important;padding:0 22px 24px!important}
-  .advantage-icon,.pickup-handover-photo{
+  .advantage-icon,.advantage-photo,.pickup-handover-photo{
     width:calc(100% + 44px)!important;
     height:150px!important;
     min-height:150px!important;
