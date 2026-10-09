@@ -1808,3 +1808,28 @@ html{scroll-padding-top:92px}
   }
   .workshop-content{padding:42px 46px}
 }
+
+
+/* 2026-10-09: service numbers sit clearly above every card title */
+.service-card.service-photo .num{
+  position:static!important;
+  display:block!important;
+  width:auto!important;
+  margin:0 0 10px!important;
+  padding:0!important;
+  transform:none!important;
+  background:transparent!important;
+  border:0!important;
+  color:#062d67!important;
+  font-size:17px!important;
+  font-weight:900!important;
+  line-height:1.15!important;
+  letter-spacing:.12em!important;
+  text-align:center!important;
+}
+.service-card.service-photo.featured .num{
+  color:#fff!important;
+}
+.service-card.service-photo h3{
+  margin-top:0!important;
+}
