@@ -1765,3 +1765,28 @@ html{scroll-padding-top:92px}
   .advantage-card h3{font-size:22px!important}
   .advantage-card p,.advantage-card.featured p{font-size:16px!important}
 }
+
+
+/* 2026-10-09: light, readable aircraft and yacht project cards */
+.special-project-card{
+  background:#fff;
+  color:#071f41;
+  border:1px solid #b8c9dc;
+  border-top:3px solid #0b5da8;
+  box-shadow:0 16px 42px rgba(7,31,65,.10);
+}
+.special-project-card .eyebrow{color:#0b5da8}
+.special-project-card .eyebrow span{background:#2f80d0}
+.special-project-card h3{color:#071f41}
+.special-project-card>p:not(.eyebrow){color:#405872}
+.special-project-card .btn{
+  background:#f7faff;
+  color:#071f41;
+  border-color:#8da7c4;
+}
+.special-project-card .btn:hover{
+  background:#073b78;
+  color:#fff;
+  border-color:#073b78;
+}
+.special-project-photo{border-bottom:1px solid #b8c9dc}
