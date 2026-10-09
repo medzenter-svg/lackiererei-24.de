@@ -1833,3 +1833,39 @@ html{scroll-padding-top:92px}
 .service-card.service-photo h3{
   margin-top:0!important;
 }
+
+
+/* 2026-10-09: unified deep-blue mobile navigation */
+@media(max-width:900px){
+  .nav{
+    background:#03152d!important;
+    border-bottom:1px solid #174d86!important;
+    box-shadow:0 8px 24px rgba(1,15,35,.28)!important;
+  }
+  .nav .brand,
+  .nav .brand-logo{
+    background:#03152d!important;
+  }
+  .menu-toggle{
+    background:#0a3c73!important;
+    border:1px solid #3f7fbe!important;
+    color:#fff!important;
+  }
+  .language-switch{
+    background:#071f41!important;
+    border-color:#3f6f9f!important;
+    box-shadow:none!important;
+  }
+  .language-switch span{color:#91a9c3!important}
+  .language-switch a{color:#b8c9dc!important}
+  .language-switch a:hover,
+  .language-switch a.active{
+    background:#0b4b8d!important;
+    color:#fff!important;
+  }
+  .nav-links{
+    background:#03152d!important;
+    border-top:1px solid #174d86!important;
+  }
+  .nav-links a{color:#fff!important}
+}
