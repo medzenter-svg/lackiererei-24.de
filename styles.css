@@ -1790,3 +1790,21 @@ html{scroll-padding-top:92px}
   border-color:#073b78;
 }
 .special-project-photo{border-bottom:1px solid #b8c9dc}
+
+
+/* 2026-10-09: compact workshop showcase aligned to the page grid */
+@media(min-width:901px){
+  .workshop-showcase{
+    width:min(var(--max),calc(100% - 56px));
+    max-width:var(--max);
+    min-height:500px;
+    grid-template-columns:.9fr 1.1fr;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .workshop-image{
+    min-height:460px;
+    background-position:58% center;
+  }
+  .workshop-content{padding:42px 46px}
+}
